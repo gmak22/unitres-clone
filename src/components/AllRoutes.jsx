@@ -7,9 +7,9 @@ import { Careers } from '../pages/Careers'
 export const AllRoutes = () => {
     return (
         <Routes>
-            <Route path='/' Component={<Homepage />}></Route>
-            <Route path='/about' Component={<About />}></Route>
-            <Route path='/career' Component={<Careers />}></Route>
+            <Route path='/' element={<Homepage />}></Route>
+            <Route path='/about' element={<About />}></Route>
+            <Route path='/career' element={<Careers />}></Route>
         </Routes>
     )
 }
