@@ -1,0 +1,26 @@
+.about {
+    overflow-x: hidden;
+  }
+  
+  .aboutConatinertwo{
+    margin: 0% 10%;
+    padding-right: 3.5%;
+  }
+  
+  
+  .fullViewportImg {
+    width: 100vw; 
+    width: 100%;
+  }
+  .aboutusOne{
+    display: flex;
+    text-align: left;
+    justify-content: center; 
+    align-items: center;
+    font-size: 10px;
+    
+    margin-top: 70px;
+  }
+  .aboutusOneConatinerone{
+    margin: 0% 5%;
+}
