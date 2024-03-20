@@ -7,7 +7,6 @@ import subhas from './Photos/subhas.jpg'
 import Nivedita from './Photos/Nivedita.jpg'
 import logo from "./Photos/logo.png"
 
-
 export default function About() {
   return (
     <div className="about">
