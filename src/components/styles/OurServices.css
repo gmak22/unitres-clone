@@ -1,0 +1,15 @@
+.service-div {
+    display: flex;
+}
+
+.service-left {
+    width: 538px;
+}
+
+.service-number {
+    font-size: 80px;
+}
+
+.service-title {
+    font-size: 30px;
+}
