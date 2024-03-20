@@ -4,7 +4,6 @@ import AboutImageOne from './Photos/AboutImageOne.png';
 import aboutus_Second from './Photos/aboutus_Second.png'
 import CEO from './Photos/CEO.jpg'
 
-
 export default function About() {
   return (
     <div className="about">
