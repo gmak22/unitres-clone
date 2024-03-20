@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { Homepage } from '../pages/Homepage'
-import { About } from '../pages/About'
+import About from '../pages/About'
 import { Careers } from '../pages/Careers'
 
 export const AllRoutes = () => {
