@@ -1,0 +1,22 @@
+.industries-model {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    color: rgb(41, 41, 98);
+    font-weight: 700;
+}
+
+.industries-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+
+    & img {
+        width: 90%;
+    }
+}
