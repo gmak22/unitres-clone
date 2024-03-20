@@ -1,9 +1,9 @@
 import React from 'react'
-import service1 from './photos/service1.png'
-import service2 from './photos/service2.png'
-import service3 from './photos/service3.png'
-import service4 from './photos/service4.png'
-import './styles/OurServices.css'
+import service1 from '../images/service1.png'
+import service2 from '../images/service2.png'
+import service3 from '../images/service3.png'
+import service4 from '../images/service4.png'
+import '../Styles/OurServices.css'
 
 export const OurServices = () => {
     return (

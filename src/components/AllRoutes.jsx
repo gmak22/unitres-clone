@@ -3,7 +3,6 @@ import { Route, Routes } from 'react-router-dom'
 import { Homepage } from '../pages/Homepage'
 import About from '../pages/About'
 import { Careers } from '../pages/Careers'
-import Application from '../pages/Services/Application'
 import InteAuto from '../pages/Services/InteAuto'
 
 export const AllRoutes = () => {

@@ -1,8 +1,8 @@
 import React from 'react'
-import './styles/Homepage.css'
+import '../Styles/Homepage.css'
 import { OurServices } from '../components/OurServices'
 import { HomeCategory } from '../components/HomeCategory'
-import approach from './photos/approach.png'
+import approach from '../images/approach.png'
 import { OurIndustries } from '../components/OurIndustries'
 
 export const Homepage = () => {

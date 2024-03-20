@@ -1,6 +1,5 @@
 import './App.css';
 import { AllRoutes } from './components/AllRoutes';
-import { AllRoutes } from './components/AllRoutes';
 import { Navbar } from './components/Navbar';
 
 function App() {
@@ -8,8 +7,6 @@ function App() {
     <div className="App">
       <Navbar />
       <AllRoutes />
-      <Navbar/>
-      <AllRoutes/>
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import product from './photos/products_icon.png'
-import design from './photos/design_icon.png'
-import data from './photos/data_icon.png'
-import engg from './photos/engg_icon.png'
-import './styles/HomeCategory.css'
+import product from '../images/products_icon.png'
+import design from '../images/design_icon.png'
+import data from '../images/data_icon.png'
+import engg from '../images/engg_icon.png'
+import '../Styles/HomeCategory.css'
 
 export const HomeCategory = () => {
     const [catStates, setCatStates] = useState({
