@@ -1,7 +1,10 @@
 import React from 'react'
+import { OurServices } from '../components/OurServices'
 
 export const Homepage = () => {
   return (
-    <div>Homepage</div>
+    <div>
+      <OurServices />
+    </div>
   )
 }
