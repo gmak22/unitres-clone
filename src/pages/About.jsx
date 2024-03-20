@@ -86,7 +86,7 @@ export default function About() {
             <p style={{fontSize: "12px"}}>Email</p>
             <div className='aboutcontainer-subfour'>
               <div><i class="fa-solid fa-envelope"></i></div>
-              <div><p>info@unitrestech.com</p></div>
+              <div><p>info@unitrestech.com</p></div>   
             </div>
           </div>
           <div>
