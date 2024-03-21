@@ -1,3 +1,6 @@
+body{
+    background-color: #ffffff;
+}
 #banner-img{
     height: 100vh;
     width: 100%;
@@ -75,7 +78,7 @@
 }
 
 #service-part-3{
-    background-color:#F3F7FF;
+    background-color:#EEF2FA;
 }
 
 #service-part-3>div>h1{
@@ -89,6 +92,7 @@
 #service-part-4{
     background-color: #ffffff;
     margin-top: 0px;
+    margin-bottom: 300px;
 }
 
 #service-part-4>div>h1{
@@ -97,5 +101,28 @@
     color: #292962;
     font-weight: 650;
     padding-top: 20px;
+}
 
+#service-part-5>h1{
+    font-size: 50px;
+    text-align: center;
+    color: #292962;
+    font-weight: 650;
+}
+
+#service-part-5{
+    background-color: #F3F7FF;
+    padding: 70px 0px 100px 0px;
+}
+
+#service-part-5>div{
+    display: grid;
+    width: 80%;
+    gap: 15px;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#service-part-5>div>img{
+    width: 280px;
 }

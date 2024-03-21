@@ -57,7 +57,7 @@ export default function InteAuto() {
             </div>
             <Swiper />
         </div>
-        <div>
+        <div id='service-part-5'>
             <h1>Application Modernization</h1>
             <div>
                 <img src="https://www.unitrestech.com/assets/images/frame4_s4.png" alt="" />
@@ -70,33 +70,6 @@ export default function InteAuto() {
             <Diagram />
         </div>
         <div>
-            <div>
-                <h1>Request for Services</h1>
-                <div>
-                <h3>Email</h3>
-                <p>info@unitrestech.com</p>
-                </div>
-                <div>
-                    <h3>Office</h3>
-                    <p>
-                    A/706 Sagar Tech Plaza, Above Balaji Show Room, Andheri Kurla, Mumbai - 400072
-                    </p>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <h1>
-                    Please feel free to contact us using form below
-                    </h1>
-                </div>
-                <div>
-                    <input type="text" />
-                    <input type="text" />
-                    <input type="text" />
-                    <input type="text" />
-                    <input type="submit" />
-                </div>
-            </div>
         </div>
     </div>
   )

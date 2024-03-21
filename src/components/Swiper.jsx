@@ -80,23 +80,15 @@ export default function MySwiper() {
       </SwiperReact>
       {/* Next and Previous buttons */}
       <button
-      style={{
-        position: 'relative',
-      }}
         className="swiper-button-prev"
         onClick={handlePrevSlide}
       >
-        Previous
+        {/* {"<"} */}
       </button>
       <button
-      style={{
-        position: 'relative',
-      }}
         className="swiper-button-next"
         onClick={handleNextSlide}
-      >
-        Next
-      </button>
+      ></button>
     </div>
   );
 }

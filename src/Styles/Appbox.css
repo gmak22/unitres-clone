@@ -1,17 +1,18 @@
+
 #container{
     width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 20px 10px;
-    gap: 20px;
-    background-color:#F3F7FF;
+    gap: 30px;
+    background-color:#EEF2FA;
     padding-bottom: 50px;
 }
 
 #sub-container{
     padding: 20px 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     /* margin-right: 10px; */
     background-color: #ffffff;
     
@@ -26,4 +27,6 @@
 
 #sub-container>p{
     color: #6B81AF;
+    font-size: 15px;
+    padding-bottom: 20px;
 }
