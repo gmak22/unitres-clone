@@ -1,0 +1,144 @@
+#main-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+#circle{
+    position:relative;
+    width: 44%;
+    background-color: #0096FE;
+    border-radius: 50%;
+    height: 500px;
+    margin: auto;
+    margin-left: 29%;
+}
+
+#circle>h1{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding-top:120px ;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+#circle>p{
+    /* position:absolute; */
+    /* position: relative; */
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: none;
+}
+
+#a,#b,#c,#d,#e,#f,#i,#j,#k,#l,#m,#n{
+    /* width: 200px; */
+    text-align: center;
+    background-color: #A5DDFF;
+    padding:10px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#a{
+    margin-top: 200px;
+    margin-left: 280px;
+    position: absolute;
+}
+
+#b{
+    position: absolute;
+    margin-top:290px ;
+    margin-left: 110px;
+}
+
+#c{
+    position: absolute;
+    margin-top: 390px;
+    margin-left: 110px;
+}
+
+#d{
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 140px;
+}
+
+#e{
+    position: absolute;
+    margin-top: 590px;
+    margin-left: 190px;
+}
+
+#f{
+    position: absolute;
+    margin-top: 680px;
+    margin-left: 330px;
+}
+
+#g{
+    width: 22%;
+    text-align: center;
+    margin: auto;
+    background-color: #A5DDFF;
+    padding: 7px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    margin-left: 40%;
+}
+
+#h{
+    width: 22%;
+    text-align: center;
+    margin: auto;
+    background-color: #A5DDFF;
+    padding: 7px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-left: 40%;
+}
+
+#i{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -450px;
+}
+
+#j{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: -350px;
+}
+
+#k{
+    position: absolute;
+    margin-top: 390px;
+    margin-left: -315px;
+}
+
+#l{
+    position: absolute;
+    margin-top: 490px;
+    margin-left: -320px;
+}
+
+#m{
+    position: absolute;
+    margin-top: 590px;
+    margin-left:-350px ;
+}
+
+#n{
+    position: absolute;
+    margin-top: 680px;
+    margin-left: -430px;
+}

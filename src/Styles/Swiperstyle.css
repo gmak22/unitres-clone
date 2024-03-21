@@ -2,11 +2,11 @@
     height: 100%;
   }
   html,
-  body {
+  /* body {
     position: relative;
     height: 100%;
   }
-  
+   */
   body {
     background: #eee;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -25,8 +25,6 @@
     text-align: center;
     font-size: 18px;
     background: #fff;
-  
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,8 +40,49 @@
   #slider-container{
     display: flex;
     justify-content: space-between;
+    text-align: left;
+    width: 75%;
   }
 
   #slider-container>div>img{
-    height: 600px;
+    height: 450px;
+    width: 450px;
   }
+
+  #slider-container>div>h1{
+    color: #008EFE;
+    font-size: 70px;
+  }
+
+  #slider-container>div>h3{
+    color: #292962;
+    margin-top: -40px;
+  }
+
+  #slider-container>div>p{
+    width: 70%;
+    color: #6B86A8;
+  }
+
+  .swiper-button-prev{
+    position: relative;
+    margin-top: -20%;
+    border: none;
+    background-color: transparent;
+  }
+
+  .swiper-button-next{
+    /* display: flex;
+    justify-content:end;
+    align-items: end; */
+    margin-left: 98%;
+    position: relative;
+    margin-top: -2.9%;
+    border: none;
+    background-color: transparent;
+  }
+
+  
+
+
+

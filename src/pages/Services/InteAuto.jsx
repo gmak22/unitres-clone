@@ -1,102 +1,294 @@
-import React from 'react'
-import AppBoxes from '../../components/AppBoxes';
-import Swiper from '../../components/Swiper'
-import Diagram from '../../components/Diagram';
-import '../../Styles/Inteauto.css'
+import React, { useEffect } from 'react'
+import Diagram from '../../components/Diagram'
+import MySwiper from '../../components/Swiper'
+import "../../Styles/Inteauto.css";
+
 
 export default function InteAuto() {
+
+
+  // useEffect(() => {
+  //   // Initialize Swiper when the component mounts
+  //   const mySwiper = new Swiper('.swiper-container', {
+  //     // Swiper options...
+  //   });
+
+  //   // Clean up Swiper instance when the component unmounts
+  //   return () => {
+  //     mySwiper.destroy();
+  //   };
+  // }, []);
+
+
+  const SliderData = [
+    {
+      img:`https://www.unitrestech.com/assets/images/image1.png`,
+      no:`01`,
+      title:`Customer Services`,
+      desc:`We live in an era where everything is getting digitized 
+      at an aggressive rate and companies need to catch up with this 
+      speed. One of the ways to achieve this is through Application 
+      Modernization, the process of updating legacy applications to 
+      modern solutions. A collaboration with us can help businesses 
+      activate faster feature releases under stringent timelines and 
+      affordable budgets.`
+    },
+    {
+      img:`https://www.unitrestech.com/assets/images/image2.png`,
+      no:`02`,
+      title:`Claims Handling`,
+      desc:`We live in an era where everything is getting digitized 
+      at an aggressive rate and companies need to catch up with this 
+      speed. One of the ways to achieve this is through Application 
+      Modernization, the process of updating legacy applications to 
+      modern solutions. A collaboration with us can help businesses 
+      activate faster feature releases under stringent timelines and 
+      affordable budgets.`
+    },
+    {
+      img:`https://www.unitrestech.com/assets/images/image3.png`,
+      no:`03`,
+      title:`Debt Collection `,
+      desc:`We live in an era where everything is getting digitized 
+      at an aggressive rate and companies need to catch up with this 
+      speed. One of the ways to achieve this is through Application 
+      Modernization, the process of updating legacy applications to 
+      modern solutions. A collaboration with us can help businesses 
+      activate faster feature releases under stringent timelines and 
+      affordable budget`
+    },
+    {
+      img:`https://www.unitrestech.com/assets/images/image4.png`,
+      no:`04`,
+      title:`Simplifai Archiver`,
+      desc:`We live in an era where everything is getting digitized at 
+      an aggressive rate and companies need to catch up with this speed. 
+      One of the ways to achieve this is through Application Modernization, 
+      the process of updating legacy applications to modern solutions. A 
+      collaboration with us can help businesses activate faster feature 
+      releases under stringent timelines and affordable budgets.`
+    },
+    {
+      img:`https://www.unitrestech.com/assets/images/image5.png`,
+      no:`05`,
+      title:`Document Handling`,
+      desc:`We live in an era where everything is getting digitized at 
+      an aggressive rate and companies need to catch up with this speed. 
+      One of the ways to achieve this is through Application Modernization, 
+      the process of updating legacy applications to modern solutions. A 
+      collaboration with us can help businesses activate faster feature releases 
+      under stringent timelines and affordable budgets.`
+    }
+  ]
+
   return (
     <div>
+        <div id='inteauto-part-1'>
+          <img src="https://www.unitrestech.com/assets/images/banner2.png" alt="" />
+          <h1>
+          Unlock Efficiency With Intelligent Automation
+          </h1>
+          <p>
+          Put automation to work for your digital business initiatives
+          </p>
+        </div>
         <div>
-            <img src="https://www.unitrestech.com/assets/images/banner4.png" alt="" id='banner-img'/>
-            <h1 id='banner-text1'>
-                Application
-                Modernization
+          <div>
+            <h1>
+            Achieve quicker outcomes with a forward-thinking operational framework.
             </h1>
-            <p id='banner-text2'>
-                Revitalize, Innovate, Elevate: Your Path to Seamless
-                Application Modernization.  
+            <p>
+            Integrate your enterprise's operations, workforce, and 
+            valuable insights through the power of intelligent process 
+            automation (IPA) to achieve remarkable efficiency improvements 
+            while keeping costs in check.
+            <br />
+            <br />
+
+            Collaborate with our knowledgeable professionals to create user-friendly 
+            methods that fully leverage automation's potential. Together, we envision 
+            new ways of operating that blend human expertise and digital capabilities 
+            to expedite transformation and enable your business to anticipate future 
+            developments.
             </p>
-        </div> 
-        <div id='service-part-2'>
+          </div>
+          <div>
+            <img src="https://www.unitrestech.com/assets/images/slide2.png" alt="" />
+          </div>
+        </div>
+        <div>
+          <h1>
+          Automation promises big gains, but only when applied properly
+          </h1>
+          <p>
+          Integrate your enterprise's operations, workforce, and valuable insights through 
+          the power of intelligent process automation (IPA) to achieve remarkable efficiency 
+          improvements while keeping costs in check Collaborate with our knowledgeable professionals 
+          to create user-friendly methods that fully leverage automation's potential. Together, 
+          we envision new ways of operating that blend human expertise and digital capabilities to 
+          expedite transformation and enable your business to anticipate future developments.
+          </p>
+        </div>
+        <div>
+          <div>
+            <h1>
+            Benefits of intelligent automation
+            </h1>
+            <p>
+            Integrate your enterprise's operations, workforce, and 
+            valuable insights through the power of intelligent process 
+            automation (IPA) to achieve remarkable efficiency improvements 
+            while keeping costs in check.
+            </p>
+          </div>
+          <div>
             <div>
+              <div>
                 <h1>
-                Application Modernization
+                Improving customer experience
                 </h1>
+                <img src="https://www.unitrestech.com/assets/images/icon1.png" alt="" />
+              </div>
+              <div>
                 <p>
-                Revitalize Your Heritage, Thrive in the Cloud.
+                Integrate your enterprise's operations, workforce, and valuable 
+                insights through the power of intelligent process automation (IPA) to achieve
                 </p>
+              </div>
             </div>
+          </div>
+          <div>
             <div>
-                <img src="https://www.unitrestech.com/assets/images/slide4.png" alt="" />
-                <p>
-                In the contemporary digital era, the imperative for application modernization has grown significantly. 
-                Organizations need to reconfigure their application landscape to ensure resilience, responsiveness, and relevance 
-                on an enterprise-wide scale.
-                <br />
-                <br />
-                The Modernization approach employed by the Unitres team, driven by an AI-first strategy, enables businesses to 
-                evolve into 'live enterprises.' This involves the seamless modernization of their legacy application landscape 
-                without causing any disruptions to daily operations.
-                </p>
-            </div>
-        </div>
-        <div id='service-part-3'>
-            <div>
+              <div>
                 <h1>
-                Our Application Modernization Competencies
+                Higher productivity experience
                 </h1>
+                <img src="https://www.unitrestech.com/assets/images/icon2.png" alt="" />
+              </div>
+              <div>
+                <p>
+                Integrate your enterprise's operations, workforce, and valuable insights through 
+                the power of intelligent process automation (IPA) to achieve
+                </p>
+              </div>
             </div>
+          </div>
+          <div>
             <div>
-                <AppBoxes />
+              <div>
+                <h1>
+                Increased performance experience
+                </h1>
+                <img src="https://www.unitrestech.com/assets/images/icon3.png" alt="" />
+              </div>
+              <div>
+                <p>
+                Integrate your enterprise's operations, workforce, and valuable insights through 
+                the power of intelligent process automation (IPA) to achieve
+                </p>
+              </div>
             </div>
-        </div>
-        <div id='service-part-4'>
+          </div>
+          <div>
             <div>
-            <h1>Types of Apps We Modernize</h1>
+              <div>
+                <h1>
+                Reduced operating costs
+                </h1>
+                <img src="https://www.unitrestech.com/assets/images/icon4.png" alt="" />
+              </div>
+              <div>
+                <p>
+                Integrate your enterprise's operations, workforce, and valuable 
+                insights through the power of intelligent process automation (IPA) to achieve
+                </p>
+              </div>
             </div>
-            <Swiper />
+          </div>
         </div>
         <div>
-            <h1>Application Modernization</h1>
+          <h1>Tehnological components of IA</h1>
+          <div>
+            <img src="https://www.unitrestech.com/assets/images/a4.png" alt="" />
             <div>
-                <img src="https://www.unitrestech.com/assets/images/frame4_s4.png" alt="" />
-                <img src="https://www.unitrestech.com/assets/images/frame4_s5.png" alt="" />
-                <img src="https://www.unitrestech.com/assets/images/frame4_s6.png" alt="" />
-                <img src="https://www.unitrestech.com/assets/images/frame4_s7.png" alt="" />
+              <h3>Computer Vision ( OCR + ICR)</h3>
+              <p>High-precision OCR engines for accurate text extraction from images, scanned documents, and other sources along with support for multiple languages and document types------
+
+                . Document Capture and Processing
+                . OCR & ICR Technology
+                . Customized Solutions
+                . Machine Learning and Continuous Improvement</p>
             </div>
+          </div>
+          <div>
+            <div>
+              <h3>Artificial Intelligence</h3>
+              <p>
+              Unitrestech can empower businesses to harness the full potential of AI within their operations, drive innovation, and stay competitive in a rapidly evolving technological landscape Consulting Services
+
+              . AI Governance and Ethics
+              . Predictive Analytics
+              . AI Integration with Existing Systems
+              . Machine Learning Model Development
+              . Data Services
+              </p>
+            </div>
+            <img src="https://www.unitrestech.com/assets/images/a3.png" alt="" />
+          </div>
+          <div>
+            <img src="https://www.unitrestech.com/assets/images/a1.png" alt="" />
+            <div>
+              <h3>Robotic Process Automation</h3>
+              <p>Automate repetitive processes across the enterprise, reducing manual tasks, increasing speed, and removing human error.
+
+                . Process Mining & Discovery
+                . Business Process Automation
+                . RPA Managed Services</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>
+              Business Process Management
+              </h3>
+              <p>
+              Transform your business with process mining and discovery to streamline processes, cut costs, and enhance productivity.
+
+              . Process Mining & Discovery
+              . Business Process Automation
+              </p>
+            </div>
+            <img src="https://www.unitrestech.com/assets/images/a2.png" alt="" />
+          </div>
         </div>
         <div>
-            <Diagram />
+          <div>
+            <img src="https://www.unitrestech.com/assets/images/11.png" alt="" />
+            <h3>Assist with innovation</h3>
+          </div>
+          <div>
+            <img src="https://www.unitrestech.com/assets/images/12.png" alt="" />
+            <h3>Saves Time</h3>
+          </div>
+          <div>
+            <img src="https://www.unitrestech.com/assets/images/13.png" alt="" />
+            <h3>Improves accuracy</h3>
+          </div>
+          <div>
+            <img src="https://www.unitrestech.com/assets/images/14.png" alt="" />
+            <h3>Enhances security</h3>
+          </div>
+          <div>
+            <img src="https://www.unitrestech.com/assets/images/15.png" alt="" />
+            <h3>Satisfies Customers</h3>
+          </div>
         </div>
         <div>
-            <div>
-                <h1>Request for Services</h1>
-                <div>
-                <h3>Email</h3>
-                <p>info@unitrestech.com</p>
-                </div>
-                <div>
-                    <h3>Office</h3>
-                    <p>
-                    A/706 Sagar Tech Plaza, Above Balaji Show Room, Andheri Kurla, Mumbai - 400072
-                    </p>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <h1>
-                    Please feel free to contact us using form below
-                    </h1>
-                </div>
-                <div>
-                    <input type="text" />
-                    <input type="text" />
-                    <input type="text" />
-                    <input type="text" />
-                    <input type="submit" />
-                </div>
-            </div>
+          <Diagram />
+        </div>
+        <div>
+          <h1>Industry Driven Use Cases</h1>
+          <MySwiper SliderData={SliderData} />
         </div>
     </div>
   )
