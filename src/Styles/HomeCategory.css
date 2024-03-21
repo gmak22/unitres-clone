@@ -1,14 +1,16 @@
 .category-model {
-    width: 100%;
+    width: 90%;
     background-color: #f3f7ff;
     margin: auto;
 }
 
 .category-heading {
-    width: 80%;
+    width: 100%;
     margin: auto;
+    margin-bottom: 60px;
 
     & :nth-child(1) {
+        margin-bottom: 18px;
         font-size: 48px;
         font-weight: 700;
         color: rgb(41, 41, 98);
@@ -24,10 +26,9 @@
 .home-category {
     display: flex;
     justify-content: space-evenly;
-    width: 90%;
+    width: 100%;
     margin: auto;
     border: 2px solid red;
-
 }
 
 .category-container {

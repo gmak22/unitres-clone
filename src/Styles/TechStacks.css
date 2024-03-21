@@ -1,0 +1,48 @@
+.techstack-model {
+    width: 90%;
+    border: 2px solid green;
+    margin: auto;
+    text-align: center;
+}
+
+.techstack-options {
+    width: 100%;
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: space-between;
+
+    & button {
+        width: 20%;
+        padding: 15px 20px;
+        font-size: 15px;
+        font-weight: bold;
+
+        &:hover {
+            color: #33b89f;
+        }
+    }
+}
+
+.techstack-heading {
+    font-size: 36px;
+    font-weight: 700;
+    color: rgb(41, 41, 98);
+}
+
+.techstack-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border: 2px solid blue;
+    padding: 32px;
+
+    & div {
+        margin: auto;
+        padding: 32px 16px;
+        font-size: 20px;
+        font-weight: 700;
+        border: 1px solid gray;
+        border-radius: 8px;
+        text-align: center;
+        width: 60%;
+    }
+}
