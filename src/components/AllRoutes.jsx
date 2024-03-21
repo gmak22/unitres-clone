@@ -4,6 +4,9 @@ import { Homepage } from '../pages/Homepage'
 import About from '../pages/About'
 import { Careers } from '../pages/Careers'
 import InteAuto from '../pages/Services/InteAuto'
+import Application from "../pages/Services/Application";
+import DataEng from "../pages/Services/DataEng";
+import Cloud from "../pages/Services/Cloud";
 
 export const AllRoutes = () => {
     return (
@@ -11,7 +14,10 @@ export const AllRoutes = () => {
             <Route path='/' element={<Homepage />}></Route>
             <Route path='/about' element={<About />}></Route>
             <Route path='/career' element={<Careers />}></Route>
-            <Route path='/service/application' element={<InteAuto />}></Route>
+            <Route path='/service/application_modernization' element={<Application />}></Route>
+            <Route path='/service/Cloud_Engineering' element={<Cloud />}></Route>
+            <Route path='/service/Data_Engineering_&_Analytics' element={<DataEng />}></Route>
+            <Route path='/service/Intelligent_Automation' element={<InteAuto />}></Route>
         </Routes>
     )
 }

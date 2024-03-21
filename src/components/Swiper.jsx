@@ -4,38 +4,9 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import "../Styles/Swiperstyle.css";
 
-export default function MySwiper() {
+export default function MySwiper({SliderData}) {
 
-  const SliderData = [
-    {
-      img:`https://www.unitrestech.com/assets/images/frame4_s1.png`,
-      no:`01`,
-      title:`Software Type`,
-      desc:`
-      . Web, mobile, and desktop app modernization
-      . Enterprise application modernization (ERP, CRM, BPA, HCM, SCM, PPM, BI, data warehouses) & SaaS modernization.
-      . IoT, big data applications, blockchain, AI/ML modernization`
-    },
-    {
-      img:`https://www.unitrestech.com/assets/images/frame4_s2.png`,
-      no:`02`,
-      title:`Platforms`,
-      desc:`
-      . Dynamics 365
-      . Salesforce
-      . Magento
-      . SharePoint
-      . ServiceNow and other platforms`
-    },
-    {
-      img:`https://www.unitrestech.com/assets/images/frame4_s3.png`,
-      no:`03`,
-      title:`Installed on`,
-      desc:`
-      . Cloud-based, on-premise, and hybrid servers.
-      . Computers, laptops, mobile devices, and wearables.`
-    }
-  ]
+ 
   const swiperRef = useRef(null);
 
   const handleNextSlide = () => {
