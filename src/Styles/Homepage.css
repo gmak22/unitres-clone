@@ -1,12 +1,17 @@
 .approach {
     width: 90%;
     margin: auto;
+    gap: 0;
     font-size: 48px;
     text-align: center;
     font-weight: 700;
     color: rgb(41, 41, 98);
+
+    & p {
+        margin: 0;
+    }
 }
 
 .approach>img {
-    width: 80%;
+    width: 90%;
 }

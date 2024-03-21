@@ -1,15 +1,61 @@
-.service-div {
+.services-heading {
+    font-size: 48px;
+    color: rgb(41, 41, 98);
+    font-weight: 700;
+    margin: auto;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.service-container {
+    border: 2px solid red;
     display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.services-model {
+    width: 90%;
+    margin: auto;
+}
+
+.service-div-odd,
+.service-div-even {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-div-even {
+    flex-direction: row-reverse;
 }
 
 .service-left {
-    width: 538px;
+    width: 40%;
+}
+
+.service-right {
+    width: 50%;
+
+    & img {
+        width: 90%;
+    }
 }
 
 .service-number {
-    font-size: 80px;
+    font-size: 4em;
+    color: gray;
+    font-weight: 700;
+    margin: 0;
 }
 
 .service-title {
-    font-size: 30px;
+    font-size: 1.5rem;
+    color: rgb(41, 41, 98);
+    font-weight: 700;
+}
+
+.service-description {
+    font-size: 15px;
+    color: gray;
 }

@@ -7,10 +7,10 @@ import '../Styles/OurServices.css'
 
 export const OurServices = () => {
     return (
-        <div>
-            <p>OUR SERVICES</p>
+        <div className='services-model'>
+            <p className='services-heading'>OUR SERVICES</p>
             <div className='service-container'>
-                <div className='service-div'>
+                <div className='service-div-odd'>
                     <div className='service-left'>
                         <p className='service-number'>01</p>
                         <p className='service-title'> Application Modernization</p>
@@ -23,11 +23,11 @@ export const OurServices = () => {
                     </div>
                 </div>
 
-                <div className='service-div'>
+                <div className='service-div-even'>
                     <div className='service-left'>
-                        <p>02</p>
-                        <p>Cloud Engineering</p>
-                        <p>
+                        <p className='service-number'>02</p>
+                        <p className='service-title'>Cloud Engineering</p>
+                        <p className='service-description'>
                             We live in an era where everything is getting digitized at an aggressive rate and companies need to catch up with this speed. One of the ways to achieve this is through Application Modernization, the process of updating legacy applications to modern solutions. A collaboration with us can help businesses activate faster feature releases under stringent timelines and affordable budgets
                         </p>
                     </div>
@@ -36,11 +36,11 @@ export const OurServices = () => {
                     </div>
                 </div>
 
-                <div className='service-div'>
+                <div className='service-div-odd'>
                     <div className='service-left'>
-                        <p>03</p>
-                        <p>Intelligent Automation</p>
-                        <p>
+                        <p className='service-number'>03</p>
+                        <p className='service-title'>Intelligent Automation</p>
+                        <p className='service-description'>
                             We live in an era where everything is getting digitized at an aggressive rate and companies need to catch up with this speed. One of the ways to achieve this is through Application Modernization, the process of updating legacy applications to modern solutions. A collaboration with us can help businesses activate faster feature releases under stringent timelines and affordable budgets
                         </p>
                     </div>
@@ -49,11 +49,11 @@ export const OurServices = () => {
                     </div>
                 </div>
 
-                <div className='service-div'>
+                <div className='service-div-even'>
                     <div className='service-left'>
-                        <p>04</p>
-                        <p>Data Analytics & Engineering</p>
-                        <p>
+                        <p className='service-number'>04</p>
+                        <p className='service-title'>Data Analytics & Engineering</p>
+                        <p className='service-description'>
                             We live in an era where everything is getting digitized at an aggressive rate and companies need to catch up with this speed. One of the ways to achieve this is through Application Modernization, the process of updating legacy applications to modern solutions. A collaboration with us can help businesses activate faster feature releases under stringent timelines and affordable budgets
                         </p>
                     </div>
