@@ -33,7 +33,7 @@ export default function MySwiper({SliderData}) {
         loop={true} // Enable loop mode
       >
         {
-          SliderData.map((ele,ind)=>
+          SliderData?.map((ele,ind)=>
           <SwiperSlide>
            <div id='slider-container'>
               <div>
