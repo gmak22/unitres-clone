@@ -13,6 +13,7 @@ export default function InteAuto() {
   //     // Swiper options...
   //   });
 
+
   //   // Clean up Swiper instance when the component unmounts
   //   return () => {
   //     mySwiper.destroy();
@@ -92,7 +93,7 @@ export default function InteAuto() {
           Put automation to work for your digital business initiatives
           </p>
         </div>
-        <div>
+        <div id='inteauto-part-2'>
           <div>
             <h1>
             Achieve quicker outcomes with a forward-thinking operational framework.
@@ -116,7 +117,7 @@ export default function InteAuto() {
             <img src="https://www.unitrestech.com/assets/images/slide2.png" alt="" />
           </div>
         </div>
-        <div>
+        <div id='inteauto-part-3'>
           <h1>
           Automation promises big gains, but only when applied properly
           </h1>
@@ -129,8 +130,8 @@ export default function InteAuto() {
           expedite transformation and enable your business to anticipate future developments.
           </p>
         </div>
-        <div>
-          <div>
+        <div id='inteauto-part-4'>
+          <div id='part4-section1'>
             <h1>
             Benefits of intelligent automation
             </h1>
@@ -141,8 +142,8 @@ export default function InteAuto() {
             while keeping costs in check.
             </p>
           </div>
+          <div id='part4-section2'>
           <div>
-            <div>
               <div>
                 <h1>
                 Improving customer experience
@@ -155,10 +156,8 @@ export default function InteAuto() {
                 insights through the power of intelligent process automation (IPA) to achieve
                 </p>
               </div>
-            </div>
           </div>
           <div>
-            <div>
               <div>
                 <h1>
                 Higher productivity experience
@@ -171,10 +170,8 @@ export default function InteAuto() {
                 the power of intelligent process automation (IPA) to achieve
                 </p>
               </div>
-            </div>
           </div>
           <div>
-            <div>
               <div>
                 <h1>
                 Increased performance experience
@@ -187,10 +184,8 @@ export default function InteAuto() {
                 the power of intelligent process automation (IPA) to achieve
                 </p>
               </div>
-            </div>
           </div>
           <div>
-            <div>
               <div>
                 <h1>
                 Reduced operating costs
@@ -203,7 +198,7 @@ export default function InteAuto() {
                 insights through the power of intelligent process automation (IPA) to achieve
                 </p>
               </div>
-            </div>
+          </div>
           </div>
         </div>
         <div>
