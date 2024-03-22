@@ -5,10 +5,39 @@
   
   .careerContainerOne{ 
     margin: 0% 25% 0% 25%;
+    font-size: 10px;
   }
   .CareerContainertwo{
     font-size: 10px;
   }
 .careerContainerOne h6{
   margin-bottom: 20px;
+}
+
+.green-text {
+  color: green;
+}
+.right-arrow {
+  float: right;
+}
+.Careerdeatils{
+  text-align:right;
+  position:relative;
+  top:-20px;
+  margin:-10px 0px ;
+}
+.green-text {
+  color: green;
+}
+
+details summary {
+  list-style: none;
+}
+
+details summary::before {
+  content: '+ ';
+}
+
+details[open] summary::before {
+  content: '- ';
 }
