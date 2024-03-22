@@ -1,28 +1,49 @@
-import React from 'react'
+import {useEffect, useState} from 'react'
 import career from "../images/career.png"
 import '../Styles/Career.css'
 
 export const Careers = () => {
+  const [openDetails, setOpenDetails] = useState({
+    openDetails1:true,
+    openDetails2:false,
+    openDetails3:false,
+    openDetails4:false,
+    openDetails5:false
+  });
+  
+
+  const toggleDetails = (jobNumber) => {
+    setOpenDetails(prevState => ({
+      ...prevState,
+      [jobNumber]: !jobNumber
+    }));
+  };
+
+  
+  useEffect(()=>{
+
+  },[openDetails.openDetails1,openDetails.openDetails2])
   return (
     <div>
       <div><img src={career} alt="career" className="fullViewportImg"/></div>
       <div className='careerContainerOne'>
         <div>
-          <h1>Job Opening</h1>
+          <h1 style={{textAlign:"center"}}>Job Opening</h1>
         </div>
         <div>
-          <details open>
-          <summary>Full Stack Developer</summary>
-          <h6>Location : Mumbai</h6>
-          <h6>Job positions: 3</h6>
-          <h6>Job Description:</h6>
+          <p style={{color: openDetails.openDetails1 ? "green" : "black"}}> Full Stack Developer</p>
+          <details open={openDetails.openDetails1} onClick={() => toggleDetails("openDetails1")} >
+          <summary className='Careerdeatils'></summary>
+          <h5>Location : Mumbai</h5>
+          <h5>Job positions: 3</h5>
+          <h5>Job Description:</h5>
           <p className='CareerContainertwo'>As a Senior Full Stack Developer at UNITRES, you will spearhead the creation of comprehensive platforms
             utilizing a diverse array of technologies. Your role will encompass the complete product development lifecycle,
             from conceptualization to deployment and ongoing maintenance of features. Your responsibilities include crafting clean,
             functional code for both front-end and back-end systems, ensuring consistency across the platform, and enhancing user experience.
             You will collaborate closely with our development team, prioritize system optimization for mobile responsiveness, and conduct UI
             tests for performance enhancements.Your contributions will directly impact the stability and usability of our products.</p>
-            <h6>Candidate Requirements:</h6>
+            <h5>Candidate Requirements:</h5>
             <ul className='CareerContainertwo'>
               <li>Proficient in both front-end and back-end languages.</li>
               <li>Competency in multiple back-end languages such as NODE, Java, and Python, along with JavaScript frameworks like Angular, React, and Vue.</li>
@@ -38,12 +59,13 @@ export const Careers = () => {
             </ul>
           </details>
         </div>
-        <div>
-          <details>
-          <summary>Devops Engineer</summary>
-          <h6>Location : Mumbai</h6>
-          <h6>Job positions: 2</h6>
-          <h6>Job Description:</h6>
+        <hr />
+        <div><p style={{color: openDetails.openDetails2 ? "green" : "black"}}>Devops Engineer</p>
+          <details open={openDetails.openDetails2} onClick={() => toggleDetails("openDetails2")}>
+          <summary className='Careerdeatils'></summary>
+          <h5>Location : Mumbai</h5>
+          <h5>Job positions: 2</h5>
+          <h5>Job Description:</h5>
           <p className='CareerContainertwo'>As a DevOps Engineer at UNITRES, you will be instrumental in optimizing our development
           and operational workflows, leveraging the capabilities of both AWS and GCP cloud platforms. You will collaborate closely with
           cross-functional teams to architect, deploy, and manage scalable, highly available infrastructure and applications.
@@ -51,7 +73,7 @@ export const Careers = () => {
           and ensuring the reliability and performance of our systems. You will play a key role in monitoring, logging, and optimizing
           cloud resources to maintain optimal cost efficiency and scalability. Additionally, you will contribute to the adoption of
           best practices in security, compliance, and disaster recovery across both AWS and GCP environments.</p>
-            <h6>Candidate Requirements:</h6>
+            <h5>Candidate Requirements:</h5>
             <ul className='CareerContainertwo'>
               <li>Proficiency in AWS and GCP cloud platforms, including services such as AWS S3, Redshift, Glue, Athena, GCP Storage, BigQuery, Dataflow, and others.</li>
               <li>Hands-on experience in designing, building, and optimizing data pipelines using tools like Apache Spark, Apache Beam, AWS Glue, GCP Dataflow, or similar technologies.</li>
@@ -68,12 +90,13 @@ export const Careers = () => {
             </ul>
           </details>
         </div>
-        <div>
-          <details>
-          <summary>Data Engineer</summary>
-          <h6>Location : Mumbai</h6>
-          <h6>Job positions: 2</h6>
-          <h6>Job Description:</h6>
+        <hr />
+        <div><p style={{color: openDetails.openDetails3 ? "green" : "black"}}>Data Engineer</p>
+          <details open={openDetails.openDetails3} onClick={() => toggleDetails("openDetails3")}>
+          <summary className='Careerdeatils'></summary>
+          <h5>Location : Mumbai</h5>
+          <h5>Job positions: 2</h5>
+          <h5>Job Description:</h5>
           <p className='CareerContainertwo'>As a Data Engineer at UNITRES, you will be at the forefront of architecting and
           implementing data solutions leveraging the capabilities of both AWS and GCP cloud platforms. You will collaborate closely
           with data scientists, analysts, and other stakeholders to design, build, and maintain scalable data pipelines, data
@@ -81,7 +104,7 @@ export const Careers = () => {
           sources, ensuring data quality, and optimizing performance for analytics and reporting. You will be responsible for designing
           and implementing data models, schemas, and storage solutions that meet the needs of our growing data ecosystem. Additionally,
           you will play a key role in implementing data security, privacy, and compliance measures across both AWS and GCP environments.</p>
-            <h6>Candidate Requirements:</h6>
+            <h5>Candidate Requirements:</h5>
             <ul className='CareerContainertwo'>
               <li>Proficiency in AWS and GCP cloud platforms, including services such as AWS S3, Redshift, Glue, Athena, GCP Storage, BigQuery, Dataflow, and others.</li>
               <li>Hands-on experience in designing, building, and optimizing data pipelines using tools like Apache Spark, Apache Beam, AWS Glue, GCP Dataflow, or similar technologies.</li>
@@ -98,12 +121,13 @@ export const Careers = () => {
             </ul>
           </details>
         </div>
-        <div>
-          <details>
-          <summary>Data Architect</summary>
-          <h6>Location : Mumbai</h6>
-          <h6>Job positions: 1</h6>
-          <h6>Job Description:</h6>
+        <hr />
+        <div><p style={{color: openDetails.openDetails4 ? "green" : "black"}}>Data Architect</p>
+          <details open={openDetails.openDetails4} onClick={() => toggleDetails("openDetails4")}>
+          <summary className='Careerdeatils'></summary>
+          <h5>Location : Mumbai</h5>
+          <h5>Job positions: 1</h5>
+          <h5>Job Description:</h5>
           <p className='CareerContainertwo'>As a Data Architect at UNITRES, you will be responsible for designing and implementing
           robust data architectures leveraging the capabilities of both AWS and GCP cloud platforms. You will collaborate closely with
           stakeholders, including data engineers, data scientists, and business analysts, to understand data requirements and design
@@ -112,7 +136,7 @@ export const Careers = () => {
           for ensuring data integrity, security, and compliance across the entire data lifecycle, from ingestion to consumption.
           Additionally, you will play a key role in optimizing data workflows, performance tuning, and implementing best practices for
           data governance and management.</p>
-            <h6>Candidate Requirements:</h6>
+            <h5>Candidate Requirements:</h5>
             <ul className='CareerContainertwo'>
               <li>Proficiency in AWS and GCP cloud platforms, including services such as AWS S3, Redshift, Glue, Athena, GCP Storage, BigQuery, Dataflow, and others.</li>
               <li>Extensive experience in designing and implementing data architectures, data models, and data pipelines for large-scale enterprise environments.</li>
@@ -128,12 +152,13 @@ export const Careers = () => {
             </ul>
           </details>
         </div>
-        <div>
-          <details>
-          <summary>Full Stack Developer</summary>
-          <h6>Location : Mumbai</h6>
-          <h6>Job positions: 1</h6>
-          <h6>Job Description:</h6>
+        <hr />
+        <div><p style={{color: openDetails.openDetails5 ? "green" : "black"}}>Enterprise Application Architect</p>
+          <details open={openDetails.openDetails5} onClick={() => toggleDetails("openDetails5")}>
+          <summary className='Careerdeatils'></summary>
+          <h5>Location : Mumbai</h5>
+          <h5>Job positions: 1</h5>
+          <h5>Job Description:</h5>
           <p className='CareerContainertwo'>As an Enterprise Application Architect at UNITRES, you will lead the design and
           implementation of scalable, secure, and reliable enterprise-level applications. You will work closely with stakeholders
           across various departments to understand business requirements, define application architecture strategies, and ensure
@@ -142,7 +167,7 @@ export const Careers = () => {
           with development teams to architect solutions that leverage modern technologies, cloud platforms, and microservices
           architectures. Additionally, you will provide technical guidance and mentorship to ensure the successful delivery of
           high-quality applications that meet performance, scalability, and security requirements.</p>
-            <h6>Candidate Requirements:</h6>
+            <h5>Candidate Requirements:</h5>
             <ul className='CareerContainertwo'>
               <li>Proven experience as an enterprise application architect, with a track record of designing and implementing complex, mission-critical applications.</li>
               <li>Deep understanding of application architecture principles, including scalability, reliability, performance, and security considerations.</li>
@@ -160,6 +185,7 @@ export const Careers = () => {
             </ul>
           </details>
         </div>
+        <hr />
       </div>
     </div>
   )
