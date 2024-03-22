@@ -122,8 +122,8 @@ export default function Application() {
                 In the contemporary digital era, the imperative for application modernization has grown significantly. 
                 Organizations need to reconfigure their application landscape to ensure resilience, responsiveness, and relevance 
                 on an enterprise-wide scale.
-                <br />
-                <br />
+                <br/>
+                <br/>
                 The Modernization approach employed by the Unitres team, driven by an AI-first strategy, enables businesses to 
                 evolve into 'live enterprises.' This involves the seamless modernization of their legacy application landscape 
                 without causing any disruptions to daily operations.
@@ -144,7 +144,7 @@ export default function Application() {
             <div>
             <h1>Types of Apps We Modernize</h1>
             </div>
-            <Swiper SliderData={SliderData}/>
+            <Swiper SliderData={SliderData} color={"#ffffff"}/>
         </div>
         <div id='service-part-5'>
             <h1>Application Modernization</h1>
