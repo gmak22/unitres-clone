@@ -5,10 +5,13 @@ import { HomeCategory } from '../components/HomeCategory'
 import approach from '../images/approach.png'
 import { OurIndustries } from '../components/OurIndustries'
 import { TechStacks } from '../components/TechStacks'
+import { HomepageSlider } from '../components/HomepageSlider'
 
 export const Homepage = () => {
   return (
     <div>
+
+      <HomepageSlider />
       <OurServices />
       <HomeCategory />
       <div className='approach'>

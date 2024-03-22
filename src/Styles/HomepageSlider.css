@@ -1,0 +1,53 @@
+.homepage-slider-container {
+    position: relative;
+    width: 100%;
+    /* border: 5px solid red; */
+
+    & img {
+        width: 100%;
+        max-height: 100vh;
+    }
+}
+
+.homepage-slider-overlay {
+    width: 50%;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.homepage-slider1-overlay {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.homepage-slider1-description {
+    width: 90%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.homepage-slider-heading {
+    font-size: 58px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.homepage-slider-description {
+    width: 90%;
+    font-size: 15px;
+}
+
+.homepage-slider-bottom {
+    font-size: 150px;
+    color: gray;
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+}
