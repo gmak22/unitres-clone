@@ -144,7 +144,7 @@ export default function Application() {
             <div>
             <h1>Types of Apps We Modernize</h1>
             </div>
-            <Swiper SliderData={SliderData}/>
+            <Swiper SliderData={SliderData} color={"#ffffff"}/>
         </div>
         <div id='service-part-5'>
             <h1>Application Modernization</h1>

@@ -201,32 +201,38 @@ export default function InteAuto() {
           </div>
           </div>
         </div>
-        <div>
+        <div id='inteauto-part-5'>
           <h1>Tehnological components of IA</h1>
           <div>
             <img src="https://www.unitrestech.com/assets/images/a4.png" alt="" />
             <div>
               <h3>Computer Vision ( OCR + ICR)</h3>
-              <p>High-precision OCR engines for accurate text extraction from images, scanned documents, and other sources along with support for multiple languages and document types------
+              <p>High-precision OCR engines for accurate text extraction from images, scanned documents, 
+                and other sources along with support for multiple languages and document types------
+              </p>
 
-                . Document Capture and Processing
-                . OCR & ICR Technology
-                . Customized Solutions
-                . Machine Learning and Continuous Improvement</p>
+              <ul>
+                <li>Document Capture and Processing</li>
+                <li>OCR & ICR Technology</li>
+                <li>Customized Solutions</li>
+                <li>Machine Learning and Continuous Improvement</li>
+              </ul>
             </div>
           </div>
           <div>
             <div>
               <h3>Artificial Intelligence</h3>
               <p>
-              Unitrestech can empower businesses to harness the full potential of AI within their operations, drive innovation, and stay competitive in a rapidly evolving technological landscape Consulting Services
-
-              . AI Governance and Ethics
-              . Predictive Analytics
-              . AI Integration with Existing Systems
-              . Machine Learning Model Development
-              . Data Services
+              Unitrestech can empower businesses to harness the full potential of AI within their operations, 
+              drive innovation, and stay competitive in a rapidly evolving technological landscape Consulting Services
               </p>
+              <ul>
+              <li>AI Governance and Ethics</li>
+              <li>Predictive Analytics</li>
+              <li>AI Integration with Existing Systems</li>
+              <li>Machine Learning Model Development</li>
+              <li>Data Services</li>
+              </ul>
             </div>
             <img src="https://www.unitrestech.com/assets/images/a3.png" alt="" />
           </div>
@@ -234,11 +240,13 @@ export default function InteAuto() {
             <img src="https://www.unitrestech.com/assets/images/a1.png" alt="" />
             <div>
               <h3>Robotic Process Automation</h3>
-              <p>Automate repetitive processes across the enterprise, reducing manual tasks, increasing speed, and removing human error.
-
-                . Process Mining & Discovery
-                . Business Process Automation
-                . RPA Managed Services</p>
+              <p>Automate repetitive processes across the enterprise, reducing manual tasks, 
+                increasing speed, and removing human error.</p>
+                <ul>
+                  <li>Process Mining & Discovery</li>
+                  <li>Business Process Automation</li>
+                  <li>RPA Managed Services</li>
+                </ul>
             </div>
           </div>
           <div>
@@ -247,16 +255,19 @@ export default function InteAuto() {
               Business Process Management
               </h3>
               <p>
-              Transform your business with process mining and discovery to streamline processes, cut costs, and enhance productivity.
+              Transform your business with process mining and discovery to streamline processes, 
+              cut costs, and enhance productivity.
 
-              . Process Mining & Discovery
-              . Business Process Automation
+              <ul>
+                <li>Process Mining & Discovery</li>
+                <li>Business Process Automation</li>
+              </ul>
               </p>
             </div>
             <img src="https://www.unitrestech.com/assets/images/a2.png" alt="" />
           </div>
         </div>
-        <div>
+        <div id='inteauto-part-6'>
           <div>
             <img src="https://www.unitrestech.com/assets/images/11.png" alt="" />
             <h3>Assist with innovation</h3>
@@ -278,13 +289,14 @@ export default function InteAuto() {
             <h3>Satisfies Customers</h3>
           </div>
         </div>
-        <div>
+        <div id='inteauto-part-7'>
           <Diagram />
         </div>
-        <div>
+        <div id='inteauto-part-8' >
           <h1>Industry Driven Use Cases</h1>
-          <MySwiper SliderData={SliderData} />
+          <MySwiper SliderData={SliderData} color="#F3F7FF"/>
         </div>
+      
     </div>
   )
 }

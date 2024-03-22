@@ -8,10 +8,10 @@
   }
    */
   body {
-    background: #eee;
+    /* background: #eee; */
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
-    color: #000;
+    /* color: #000; */
     margin: 0;
     padding: 0;
   }
@@ -24,7 +24,7 @@
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    /* background: #ffffff; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,8 @@
     display: flex;
     justify-content: space-between;
     text-align: left;
-    width: 75%;
+    padding: 0px 12.5%;
+    width: 100%;
   }
 
   #slider-container>div>img{

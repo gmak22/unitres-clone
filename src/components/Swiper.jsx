@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import "../Styles/Swiperstyle.css";
 
-export default function MySwiper({SliderData}) {
+export default function MySwiper({SliderData,color}) {
 
  
   const swiperRef = useRef(null);
@@ -30,11 +30,14 @@ export default function MySwiper({SliderData}) {
         }}
         className="mySwiper"
         ref={swiperRef}
-        loop={true} // Enable loop mode
+        loop={true}
+        style={{backgroundColor:{color}}}
       >
         {
           SliderData?.map((ele,ind)=>
-          <SwiperSlide>
+          <SwiperSlide
+          style={{backgroundColor:{color}}}
+          >
            <div id='slider-container'>
               <div>
                   <h1>{ele.no}</h1>
