@@ -16,6 +16,7 @@
         padding: 15px 20px;
         font-size: 15px;
         font-weight: bold;
+        border: none;
 
         &:hover {
             color: #33b89f;

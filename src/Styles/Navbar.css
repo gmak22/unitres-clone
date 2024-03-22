@@ -1,0 +1,40 @@
+.navbar,
+.nav-scrolled {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    padding: 10px 0;
+    padding-left: 20px;
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+}
+
+.navbar {
+    background: transparent;
+}
+
+Link {
+    color: white;
+    border: 3px solid blue;
+}
+
+.nav-menu {
+    width: 40%;
+    display: flex;
+    gap: 2.5rem;
+}
+
+.nav-scrolled {
+    background-color: #292962;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
