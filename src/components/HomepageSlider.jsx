@@ -67,7 +67,7 @@ export const HomepageSlider = () => {
         }, 2000)
 
         return () => clearInterval(intervalId);
-    }, []);
+    });
 
     return (
         <div className='homepage-slider-container'>
