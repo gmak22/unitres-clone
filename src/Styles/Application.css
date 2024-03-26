@@ -126,7 +126,7 @@ body{
     width: 280px;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 800px){
+@media only screen and (min-width: 300px) and (max-width: 500px){
     #banner-img{
         height: 70vh;
         width: 100%;
@@ -234,6 +234,125 @@ body{
         width: 75%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        gap: 15px;
+    }
+    
+    #service-part-5>div>img{
+        width: 280px;
+    }
+    #service-part-6{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 850px){
+    #banner-img{
+        height: 60vh;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    
+    #banner-text1{
+        margin-top:-315px ;
+        position: absolute;
+        left: 45%;
+        width: 10%;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    #banner-text2{
+        margin-top:-205px ;
+        position: absolute;
+        left: 28%;
+        width: 50%;
+        text-align: center;
+        /* font-size: 80px; */
+    }
+    
+    #service-part-2{
+        width: 100%;
+        margin: auto;
+        background-color: #ffffff;
+    }
+    
+    #service-part-2>div>h1{
+        font-size: 50px;
+        text-align: center;
+        color: #292962;
+        font-weight: 650;
+    }
+    
+    #service-part-2>div>h1+p{
+        text-align: center;
+        font-size: 22px;
+        font-weight: 550;
+        margin-top: -20px;
+        margin-bottom: 55px;
+    }
+    
+    #service-part-2>:nth-child(2){
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    #service-part-2>div>img{
+        padding: 10px;
+        width: 95%;
+        margin-right: 15px;
+    }
+    
+    #service-part-2>div>img+p{
+        width: 90%;
+        color:#6B86A8;
+        margin: auto;
+    }
+    
+    #service-part-3{
+        background-color:#EEF2FA;
+    }
+    
+/* left for part 3 & part 4 also */
+
+    #service-part-3>div>h1{
+        font-size: 40px;
+        text-align: center;
+        color: #292962;
+        font-weight: 650;
+        padding-top: 100px;
+    }
+    
+    #service-part-4{
+        background-color: #ffffff;
+        margin-top: 0px;
+        margin-bottom: 300px;
+    }
+    
+    #service-part-4>div>h1{
+        font-size: 50px;
+        text-align: center;
+        color: #292962;
+        font-weight: 650;
+        padding-top: 20px;
+    }
+    
+    #service-part-5>h1{
+        font-size: 40px;
+        text-align: center;
+        color: #292962;
+        font-weight: 650;
+    }
+    
+    #service-part-5{
+        background-color: #F3F7FF;
+        margin: auto;
+        padding: 70px 0px;
+    }
+    
+    #service-part-5>div{
+        width: 75%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
         gap: 15px;
     }
     
