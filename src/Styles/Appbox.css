@@ -30,3 +30,16 @@
     font-size: 15px;
     padding-bottom: 20px;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 800px){
+    #container{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px 10px;
+        gap: 30px;
+        background-color:#EEF2FA;
+        padding-bottom: 50px;
+    }
+}
