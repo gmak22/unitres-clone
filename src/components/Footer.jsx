@@ -7,9 +7,9 @@ export const Footer = () => {
     <div style={{paddingBottom:"20px"}}>
         {/* footer */}
         <div className='aboutcontainer-four'>
-        <div>Request for Services
+        <div ><h2 style={{fontSize:"30px", fontWeight:"700px", }}>Request for Services</h2>
             <div>
-            <p style={{ fontSize: "12px" }}>Email</p>
+            <h5 style={{  }}>Email</h5>
             <div className='aboutcontainer-subfour'>
                 <div><i class="fa-solid fa-envelope"></i></div>
                 <div><p>info@unitrestech.com</p></div>
@@ -24,7 +24,8 @@ export const Footer = () => {
             </div>
         </div>
 
-        <div style={{ boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px", padding: "10px 10px", fontSize: "15px" }}>Please feel free to contact us using form below
+        <div style={{ boxShadow: "rgba(149, 157, 165, 0.2) 0px 8px 24px", padding: "10px 10px",}}>
+            <h3 style={{fontSize:"23px",fontWeight: "500"}}>Please feel free to contact us using form below</h3>
             <form action=""> <br />
             <input type="text" name="name" placeholder="Your Name" id="name" class="formdata" /> <br />
             <br /><input type="email" name="email" placeholder="Your Email Address" id="email" class="formdata" /><br />
@@ -41,26 +42,26 @@ export const Footer = () => {
         <div style={{width:"40%"}}><img src={logo} alt="logo" id="logoimg"/></div>
         <div>
             <div>
-                <p style={{fontSize: "8px",fontWeight:"bold" }}>RESOURCES</p>
-                <p>Home</p>
-                <p>About</p>
-                <p>Blog</p>
-                <p>Careers</p>
-                <p>Why Choose Us</p>
+                <h6 style={{fontSize:"13px", fontWeight:"500"}}>RESOURCES</h6>
+                <p className='footerTags'>Home</p>
+                <p className='footerTags'>About</p>
+                <p className='footerTags'>Blog</p>
+                <p className='footerTags'> Careers</p>
+                <p className='footerTags'>Why Choose Us</p>
             </div>
             <div>
-                <p style={{fontSize: "8px",fontWeight:"bold" }}>SERVICES</p>
-                <p>Application Modernization</p>
-                <p>Cloud Engineering</p>
-                <p>Intelligent Automation</p>
-                <p>Data Analytics & Engineering</p>
+                <h6 style={{fontSize:"13px", fontWeight:"500"}}>SERVICES</h6>
+                <p className='footerTags'>Application Modernization</p>
+                <p className='footerTags'>Cloud Engineering</p>
+                <p className='footerTags'>Intelligent Automation</p>
+                <p className='footerTags'>Data Analytics & Engineering</p>
             </div>
         </div>
         </div>
 
         <div className='containerfooterLast'>
         <div style={{color: "rgba(0, 0, 0, 0.5)"}}>Copyright © Unitres 2024</div>
-        <div style={{ display: "flex", justifyContent:"space-between", columnGap:"20px", color:"green" }}><div>Terms</div> <div>Privacy Policy</div></div>
+        <div style={{ display: "flex", justifyContent:"space-between", columnGap:"20px", color:"green"}} className='footerTags'><div>Terms</div> <div>Privacy Policy</div></div>
         </div>
     </div>
   )
