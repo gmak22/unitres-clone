@@ -29,11 +29,12 @@
   }
 
    .aboutusTextOne{
-    font-size:23px;
-    font-weight:650;
+    font-size: calc(1.35rem + 1.2vw);
+    font-weight: 700;
+    /* background-color: red; */
   }
   .aboutusTextTwo{
-    font-size: 10px;
+    /* font-size: 10px; */
     color:rgba(0, 0, 0, 0.5);
   }
 
@@ -61,7 +62,8 @@
 .container_three{
   display: flex;
   gap: 20px;
-  font-size: 10px;
+  /* font-size: 10px; */
+  
   text-align: left;
 }
 
@@ -91,26 +93,30 @@
   display: flex;
   text-align: left;
   margin: 50px 14% 0% 14%;
-  gap: 3%;  
+  /* gap: 2%;   */
+  justify-content: space-between;
+  /* background-color: red; */
 }
 .aboutcontainer-subfour{
   display: flex;
   /* border: 1px solid; */
    /* justify-content: center; */
-   gap: 5px;
+   gap: 10px;
   align-items: center; 
-  font-size:9px;
+  /* font-size:9px; */
   color: rgba(0, 0, 0, 0.5);
-  margin-right: 20%;
+  margin-right: 15%;
+  margin-top: -20px;
 }
 input[type="text"]::placeholder {
-  font-size: 10px;
+  /* font-size: 10submitbtnpx; */
   font-weight: normal; 
 }
 .formdata{
-  font-size: 10px;
+  /* font-size: 10px; */
+  color: rgba(0, 0, 0, 0.5);
   font-weight: normal; 
-  padding:5px 10px;
+  padding:13px 10px;
   border-Radius:5px;
   border: 1px solid #ccc;
   width: calc(100% - 22px);
@@ -118,6 +124,7 @@ input[type="text"]::placeholder {
 .formdata:focus{
   border-color: green;
 }
+/* 2 */
 .containerfooter{
   margin: 50px 20% 0% 14%;
   display: flex;
@@ -128,7 +135,7 @@ input[type="text"]::placeholder {
   display: flex;
   width: 100%;
   justify-content:space-around;
-  font-size: 8px;
+  /* font-size: 8px; */
   text-align: left;
   /* background-color: pink; */
 }
@@ -136,18 +143,22 @@ input[type="text"]::placeholder {
   margin: 50px 15% 0% 14%;
   display: flex;
   justify-content:space-between;
-  font-size: 10px;
+  /* font-size: 10px; */
 }
 #submitbtn{
+  margin: 20px 0px;
   background-color: black;
   color: white;
-  border-radius: 10px;
-  font-size: 10px;
-  padding: 5px 10px;
+  border-radius: 20px;
+  /* font-size: 10px; */
+  padding: 10px 20px;
 }
 #logoimg{
   width: 17vw;
   height:7vh;
+}
+.footerTags{
+  color: rgba(0, 0, 0, 0.5);
 }
 
 @media only screen and (min-width: 100px) and (max-width: 800px)   {

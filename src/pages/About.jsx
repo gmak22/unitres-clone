@@ -19,7 +19,7 @@ export default function About() {
       <div className='aboutConatinertwo'>
         <div className='aboutusOne'>
           <div className='aboutusOneConatinerone' style={{ width: "50%", }}>
-            <div><h1 className='aboutusTextOne'>About Us</h1></div>
+            <div><h2 className='aboutusTextOne'>About Us</h2></div>
             <div className='aboutusTextTwo'>
               <p>UNITRES enables companies to explore and adopt new age technologies that cater to ongoing business demands.
                 Our intelligent and customized talent acquisition solutions will ensure the best Technology,
@@ -35,10 +35,10 @@ export default function About() {
 
       {/* 3rd */}
       <div className='container-three'>
-        <div style={{textAlign:"center", marginTop:"50px"}}><h1>Leadership Team</h1></div>
+        <div  style={{textAlign:"center", marginTop:"50px", fontSize:"25px",fontWeight: "700"}}><h2>Leadership Team</h2></div>
         <div className='container_three'>
           <div>
-            <div style={{ fontSize: "bold" }}><p>Passionate Technology Delivery Leader with a wealth of experience</p></div>
+            <div style={{ fontSize: "bold" }}><h4>Passionate Technology Delivery Leader with a wealth of experience</h4></div>
             <div style={{ color: "rgba(0, 0, 0, 0.5)" }}><p>diverse domains, including Banking, Insurance, and Payments. With a global perspective, successfully navigated through various
               geographies, such as the USA, Africa, UAE, and Europe.</p>
             </div>
@@ -52,7 +52,7 @@ export default function About() {
             </div>
           </div>
           <div>
-            <div style={{ fontSize: "bold" }}><p>Experience in Cloud Engineering, Application Development, and Data Engineering.</p></div>
+            <div style={{ fontSize: "bold" }}><h4>Experience in Cloud Engineering, Application Development, and Data Engineering.</h4></div>
             <div style={{ color: "rgba(0, 0, 0, 0.5)" }}><p>His global experience and collaboration with Fortune 500 clients underscore his
               ability to drive successful outcomes in diverse and challenging environments.</p>
             </div>
@@ -66,7 +66,7 @@ export default function About() {
             </div>
           </div>
           <div>
-            <div style={{ fontSize: "bold" }}><p>HR leader with a rich background encompassing all facets of human resources functions.</p></div>
+            <div style={{ fontSize: "bold" }}><h4>HR leader with a rich background encompassing all facets of human resources functions.</h4></div>
             <div style={{ color: "rgba(0, 0, 0, 0.5)" }}><p>With over 15 years of extensive experience, she has demonstrated a profound understanding
               of the HR landscape and a proven track record of achieving tangible results.</p>
             </div>
