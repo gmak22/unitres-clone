@@ -4,22 +4,28 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 10;
     padding: 10px 0;
     padding-left: 20px;
     transition: background-color 0.3s ease;
     overflow: hidden;
+    position: fixed;
 }
 
 .navbar {
     background: transparent;
 }
 
-Link {
+.nav-links {
+    width: 60%;
+    display: flex; /* Ensure nav-links are displayed */
+    justify-content: space-between;
+}
+
+a {
     color: white;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
 }
 
 .nav-menu {
@@ -37,4 +43,90 @@ Link {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 400;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: transform 0.3s ease;
+}
+
+.nav-menu.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 40%;
+    background-color: #292962;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.hamburger {
+    display: block;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 11; /* Ensure it's above the navbar */
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+/* Adjust hamburger icon when menu is open */
+.nav-menu.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.nav-menu.active .line:nth-child(2) {
+    opacity: 0;
+}
+
+.nav-menu.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Media query to hide nav-links and display hamburger menu */
+@media only screen and (min-width: 301px) and (max-width: 850px) {
+    .hamburger {
+        display: flex;
+        margin-left: 69%;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-menu.active .nav-links {
+        display: block;
+    }
+
+   
+    
+    .nav-menu:not(.active) .nav-links {
+        display: none;
+    }
+    a{
+        display: block;
+        padding-left: 50px;
+        padding-top: 10px;
+    }
 }

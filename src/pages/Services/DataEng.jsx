@@ -65,7 +65,7 @@ export default function DataEng() {
           </div>
         </div>
       </div>
-      <div>
+      <div id='data-part-4'>
         <h1>Unitres Approach</h1>
         <p>Integrate your enterprise's operations, workforce, 
           and valuable insights through the power of intelligent 
@@ -73,7 +73,7 @@ export default function DataEng() {
           improvements while keeping costs in check.</p>
         <img src="https://www.unitrestech.com/assets/images/222.png" alt="" />
       </div>
-      <div>
+      <div id='data-part-5'>
         <h1>Key Partnerships</h1>
         <div>
           <img src="https://www.unitrestech.com/assets/images/frame14.png" alt="" />
@@ -82,7 +82,7 @@ export default function DataEng() {
           <img src="https://www.unitrestech.com/assets/images/frame11.png" alt="" />
         </div>
       </div>
-      <div>
+      <div id='data-part-6'>
         <h1>Why Unitres</h1>
         <div>
           <div>

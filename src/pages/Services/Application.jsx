@@ -155,7 +155,7 @@ export default function Application() {
                 <img src="https://www.unitrestech.com/assets/images/frame4_s7.png" alt="" />
             </div>
         </div>
-        <div>
+        <div id='service-part-6'>
             <Diagram />
         </div>
     </div>

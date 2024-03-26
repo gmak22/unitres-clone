@@ -10,7 +10,6 @@ import { HomepageSlider } from '../components/HomepageSlider'
 export const Homepage = () => {
   return (
     <div>
-
       <HomepageSlider />
       <OurServices />
       <HomeCategory />
