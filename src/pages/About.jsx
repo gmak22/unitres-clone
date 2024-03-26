@@ -18,7 +18,7 @@ export default function About() {
       {/* 2nd */}
       <div className='aboutConatinertwo'>
         <div className='aboutusOne'>
-          <div className='aboutusOneConatinerone' style={{ width: "50%", }}>
+          <div className='aboutusOneConatinerone' style={{}}>
             <div><h2 className='aboutusTextOne'>About Us</h2></div>
             <div className='aboutusTextTwo'>
               <p>UNITRES enables companies to explore and adopt new age technologies that cater to ongoing business demands.
