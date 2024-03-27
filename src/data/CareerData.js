@@ -1,0 +1,116 @@
+export const data=[
+    {
+    id:1,
+    name:"Full Stack Developer",
+    Location : "Mumbai",
+    Job_Positions: 3,
+    Job_Description:"As a Senior Full Stack Developer at UNITRES, you will spearhead the creation of comprehensive platforms utilizing a diverse array of technologies. Your role will encompass the complete product development lifecycle, from conceptualization to deployment and ongoing maintenance of features. Your responsibilities include crafting clean, functional code for both front-end and back-end systems, ensuring consistency across the platform, and enhancing user experience. You will collaborate closely with our development team, prioritize system optimization for mobile responsiveness, and conduct UI tests for performance enhancements. Your contributions will directly impact the stability and usability of our products.",
+    Candidate_Requirements:{
+        1:"Proficient in both front-end and back-end languages.",
+        2:"Competency in multiple back-end languages such as NODE, Java, and Python, along with JavaScript frameworks like Angular, React, and Vue.",
+        3:"Familiarity with various front-end languages and libraries including HTML, CSS, and JavaScript.",
+        4:"Knowledgeable in databases like MySQL and MongoDB, web servers (e.g., Apache), and UI/UX design principles.",
+        5: "Skilled in testing and debugging processes.",
+        6:"Aesthetic sensibility for layout design.",
+        7:"Analytical mindset with excellent time management skills.",
+        8:"Strong communication and problem-solving abilities.",
+        9:"Enthusiasm for exploring and integrating emerging technologies into projects.",
+        10:"Experience in coaching and mentoring other developers.",
+        11:"Ability to oversee and drive project progression."
+      },
+      openDetails:false,
+    },
+  
+    {
+      id:2,
+      name:"Devops Engineer",
+      Location : "Mumbai",
+      Job_Positions: 2,
+      Job_Description:"As a DevOps Engineer at UNITRES, you will be instrumental in optimizing our development and operational workflows, leveraging the capabilities of both AWS and GCP cloud platforms. You will collaborate closely with cross-functional teams to architect, deploy, and manage scalable, highly available infrastructure and applications. Your responsibilities will include designing and implementing automated CI/CD pipelines, managing infrastructure as code, and ensuring the reliability and performance of our systems. You will play a key role in monitoring, logging, and optimizing cloud resources to maintain optimal cost efficiency and scalability. Additionally, you will contribute to the adoption of best practices in security, compliance, and disaster recovery across both AWS and GCP environments.",
+      Candidate_Requirements:{
+          1:"Proficiency in AWS and GCP cloud platforms, including services such as AWS S3, Redshift, Glue, Athena, GCP Storage, BigQuery, Dataflow, and others.",
+          2:"Hands-on experience in designing, building, and optimizing data pipelines using tools like Apache Spark, Apache Beam, AWS Glue, GCP Dataflow, or similar technologies.",
+          3:"Strong understanding of data modeling concepts and experience in designing and implementing data schemas, data lakes, and data warehouses on AWS and GCP.",
+          4:"Proficiency in SQL and experience in writing complex queries, transformations, and aggregations for data processing and analytics purposes.",
+          5:"Familiarity with big data technologies such as Hadoop, Hive, Presto, or Spark for large-scale data processing and analytics.",
+          6:"Experience in data governance, data lineage, and metadata management practices to ensure data quality, consistency, and compliance.",
+          7:"Knowledge of data security best practices and experience in implementing data encryption, access controls, and audit logging in AWS and GCP environments.",
+          8:"Strong programming skills in languages such as Python, Java, or Scala for data manipulation, transformation, and automation tasks.",
+          9:"Experience with data visualization tools such as Tableau, Power BI, or Google Data Studio for creating interactive dashboards and reports.",
+          10:"Effective communication skills and ability to collaborate with cross-functional teams to understand requirements, gather feedback, and deliver data solutions that meet business needs.",
+          11:"Continuous learning mindset with the willingness to stay updated with the latest trends and technologies in data engineering, cloud computing, and analytics.",
+          12:"Previous experience with multi-cloud environments and certifications in AWS and/or GCP are highly desirable but not required."
+      },
+      openDetails:true,
+    },
+  
+    {
+      id:3,
+      name:"Data Engineer",
+      Location : "Mumbai",
+      Job_Positions: 2,
+      Job_Description:"As a Data Engineer at UNITRES, you will be at the forefront of architecting and implementing data solutions leveraging the capabilities of both AWS and GCP cloud platforms. You will collaborate closely with data scientists, analysts, and other stakeholders to design, build, and maintain scalable data pipelines, data warehouses, and analytics systems. Your role will involve extracting, transforming, and loading (ETL) data from various sources, ensuring data quality, and optimizing performance for analytics and reporting. You will be responsible for designing and implementing data models, schemas, and storage solutions that meet the needs of our growing data ecosystem. Additionally, you will play a key role in implementing data security, privacy, and compliance measures across both AWS and GCP environments.",
+      Candidate_Requirements:{
+          1:"Proficiency in AWS and GCP cloud platforms, including services such as AWS S3, Redshift, Glue, Athena, GCP Storage, BigQuery, Dataflow, and others.",
+          2:"Hands-on experience in designing, building, and optimizing data pipelines using tools like Apache Spark, Apache Beam, AWS Glue, GCP Dataflow, or similar technologies.",
+          3:"Strong understanding of data modeling concepts and experience in designing and implementing data schemas, data lakes, and data warehouses on AWS and GCP.",
+          4:"Proficiency in SQL and experience in writing complex queries, transformations, and aggregations for data processing and analytics purposes.",
+          5:"Familiarity with big data technologies such as Hadoop, Hive, Presto, or Spark for large-scale data processing and analytics.",
+          6:"Experience in data governance, data lineage, and metadata management practices to ensure data quality, consistency, and compliance.",
+          7:"Knowledge of data security best practices and experience in implementing data encryption, access controls, and audit logging in AWS and GCP environments.",
+          8:"Strong programming skills in languages such as Python, Java, or Scala for data manipulation, transformation, and automation tasks.",
+          9:"Experience with data visualization tools such as Tableau, Power BI, or Google Data Studio for creating interactive dashboards and reports.",
+          10:"Effective communication skills and ability to collaborate with cross-functional teams to understand requirements, gather feedback, and deliver data solutions that meet business needs.",
+          11:"Continuous learning mindset with the willingness to stay updated with the latest trends and technologies in data engineering, cloud computing, and analytics.",
+          12:"Previous experience with multi-cloud environments and certifications in AWS and/or GCP are highly desirable but not required."
+      },
+      openDetails:true,
+    },
+  
+    {
+      id:4,
+      name:"Data Architect",
+      Location : "Mumbai",
+      Job_Positions: 1,
+      Job_Description:"As a Data Architect at UNITRES, you will be responsible for designing and implementing robust data architectures leveraging the capabilities of both AWS and GCP cloud platforms. You will collaborate closely with stakeholders, including data engineers, data scientists, and business analysts, to understand data requirements and design scalable and efficient solutions to meet business needs. Your role will involve defining data models, schemas, and storage structures, as well as selecting appropriate data storage and processing technologies on AWS and GCP. You will be responsible for ensuring data integrity, security, and compliance across the entire data lifecycle, from ingestion to consumption. Additionally, you will play a key role in optimizing data workflows, performance tuning, and implementing best practices for data governance and management.",
+      Candidate_Requirements:{
+          1:"Proficiency in AWS and GCP cloud platforms, including services such as AWS S3, Redshift, Glue, Athena, GCP Storage, BigQuery, Dataflow, and others.",
+          2:"Extensive experience in designing and implementing data architectures, data models, and data pipelines for large-scale enterprise environments.",
+          3:"Strong understanding of data warehousing concepts, including dimensional modeling, data normalization, and star schema design.",
+          4:"Hands-on experience with ETL/ELT processes, data integration techniques, and data transformation tools such as Apache Spark, Apache Beam, AWS Glue, GCP Dataflow, or similar technologies.",
+          5:"Knowledge of big data technologies and frameworks such as Hadoop, Hive, Presto, or Spark for processing and analyzing large volumes of data.",
+          6:"Expertise in data governance, data lineage, metadata management, and data quality assurance practices to ensure data consistency, accuracy, and compliance.",
+          7:"Proficiency in SQL and experience in writing complex queries, optimizations, and performance tuning for data processing and analytics purposes.",
+          8:"Experience in implementing data security controls, encryption, access controls, and audit logging in AWS and GCP environments.",
+          9:"Strong programming skills in languages such as Python, Java, or Scala for data manipulation, automation, and orchestration tasks.",
+          10:"Excellent communication and stakeholder management skills, with the ability to collaborate effectively with cross-functional teams and translate business requirements into technical solutions.",
+          11:"Continuous learning mindset with the willingness to stay updated with the latest trends and technologies in data architecture, cloud computing, and analytics.",
+          12:"Previous experience with multi-cloud environments and certifications in AWS and/or GCP are highly desirable but not required."
+      },
+      openDetails:true,
+    },
+  
+    {
+      id:5,
+      name:"Enterprise Application Architect",
+      Location : "Mumbai",
+      Job_Positions: 1,
+      Job_Description:"As an Enterprise Application Architect at UNITRES, you will lead the design and implementation of scalable, secure, and reliable enterprise-level applications. You will work closely with stakeholders across various departments to understand business requirements, define application architecture strategies, and ensure alignment with organizational goals. Your role will involve assessing existing systems, identifying opportunities for improvement, and defining standards and best practices for application development and integration. You will collaborate with development teams to architect solutions that leverage modern technologies, cloud platforms, and microservices architectures. Additionally, you will provide technical guidance and mentorship to ensure the successful delivery of high-quality applications that meet performance, scalability, and security requirements.",
+      Candidate_Requirements:{
+          1:"Proven experience as an enterprise application architect, with a track record of designing and implementing complex, mission-critical applications.",
+          2:"Deep understanding of application architecture principles, including scalability, reliability, performance, and security considerations.",
+          3:"Extensive experience in assessing business requirements, defining application architecture strategies, and translating them into technical solutions.",
+          4:"Strong expertise in designing and implementing distributed systems, microservices architectures, and API-driven integration patterns.",
+          5:"Proficiency in modern development technologies and frameworks such as Java, .NET, Spring Boot, Node.js, React, Angular, or similar.",
+          6:"Knowledge of cloud platforms such as AWS, Azure, or Google Cloud Platform, including experience in architecting and deploying applications in cloud environments.",
+          7:"Familiarity with containerization technologies such as Docker and container orchestration platforms like Kubernetes.",
+          8:"Experience with database technologies such as SQL, NoSQL, and data caching solutions.",
+          9:"Strong understanding of security best practices and compliance standards in application development and integration.",
+          10:"Excellent communication and stakeholder management skills, with the ability to collaborate effectively with business leaders, development teams, and other stakeholders.",
+          11:"Leadership skills with the ability to provide technical guidance, mentorship, and coaching to development teams.",
+          12:"Continuous learning mindset with the willingness to stay updated with the latest trends and technologies in enterprise application architecture.",
+          13:"Bachelor's or master's degree in computer science, engineering, or a related field is preferred. Relevant certifications such as TOGAF or AWS Certified Solutions Architect are a plus."
+      },
+      openDetails:true,
+    }
+  ];

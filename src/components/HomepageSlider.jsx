@@ -62,12 +62,11 @@ export const HomepageSlider = () => {
     ]
 
     useEffect(() => {
-        const intervalId = setInterval(() => {
+        const intervalId = setTimeout(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % sliderDivs.length);
         }, 2000)
-
-        return () => clearInterval(intervalId);
-    });
+        // return () => clearInterval(intervalId);
+    },[]);
 
     return (
         <div className='homepage-slider-container'>
