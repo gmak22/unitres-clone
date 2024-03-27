@@ -130,7 +130,7 @@ export default function Application() {
                 </p>
             </div>
         </div>
-        <div id='service-part-3'>
+        <div id='service-part-3' >
             <div>
                 <h1>
                 Our Application Modernization Competencies
