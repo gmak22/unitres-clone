@@ -48,7 +48,7 @@
       /* width: 100%; */
     }
     .aboutusTextTwo{
-      width: 45vh;
+      width: 40vh;
       /* background-color: red; */
       margin: 0%;
     }
@@ -195,7 +195,11 @@ input[type="text"]::placeholder {
     row-gap: 10px;
   }
   #logoimg{
-    width: 100vw;
+    /* margin-top: -50px; */
+    width: 80vw;
+  }
+  .footerTags{
+    width: 40vh;
   }
   
 }

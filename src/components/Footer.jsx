@@ -61,7 +61,7 @@ export const Footer = () => {
 
         <div className='containerfooterLast'>
         <div style={{color: "rgba(0, 0, 0, 0.5)"}}>Copyright © Unitres 2024</div>
-        <div style={{ display: "flex", justifyContent:"space-between", columnGap:"20px", color:"green"}} className='footerTags'><div>Terms</div> <div>Privacy Policy</div></div>
+        <div style={{ display: "flex", justifyContent:"space-between", columnGap:"20px", color:"green", }} className='footerTags'><div>Terms</div> <div>Privacy Policy</div></div>
         </div>
     </div>
   )
