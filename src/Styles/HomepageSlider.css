@@ -1,7 +1,6 @@
 .homepage-slider-container {
     position: relative;
     width: 100%;
-    /* border: 5px solid red; */
 
     & img {
         width: 100%;
@@ -50,4 +49,32 @@
     text-align: center;
     margin: 0;
     font-weight: 700;
+}
+
+@media screen and (max-width:1023px) {
+    .homepage-slider-heading {
+        font-size: 1rem;
+    }
+
+    .homepage-slider-description,
+    .homepage-slider1-description,
+    .homepage-slider-bottom {
+        display: none;
+    }
+
+    .homepage-slider-overlay {
+        top: 50%;
+        left: 50%;
+    }
+
+    .homepage-slider1-overlay {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .homepage-slider-heading {
+        font-size: 3rem;
+        opacity: 70%;
+    }
 }

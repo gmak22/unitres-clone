@@ -3,15 +3,16 @@
     color: rgb(41, 41, 98);
     font-weight: 700;
     margin: auto;
+    margin-top: 60px;
     margin-bottom: 60px;
     text-align: center;
 }
 
 .service-container {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     gap: 100px;
+    margin-bottom: 2rem;
 }
 
 .services-model {
@@ -56,6 +57,39 @@
 }
 
 .service-description {
-    font-size: 15px;
+    font-size: 1.1rem;
     color: gray;
+    line-height: 24px;
+}
+
+@media screen and (max-width:767px) {
+    .service-container {
+        gap: 1rem;
+    }
+
+    .service-div-odd {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    .service-div-even {
+        flex-direction: column-reverse;
+        align-content: flex-start;
+        gap: 1rem;
+    }
+
+    .service-div-odd {
+        width: 100%;
+    }
+
+    .service-left,
+    .service-right {
+        width: 90%;
+    }
+
+    .service-right {
+        & img {
+            width: 100%;
+        }
+    }
 }

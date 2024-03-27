@@ -33,10 +33,6 @@
     font-size: 3.5rem;
     font-weight: 700;
     margin: 0;
-
-    @media screen and (max-width: 480px) {
-        font-size: 2rem;
-    }
 }
 
 .cloud-description {
@@ -206,12 +202,66 @@
     background-color: #90c8e5;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
 
     .bottom-container1,
     .bottom-container2,
     .bottom-container3 {
         display: flex;
         flex-direction: column;
+    }
+
+    .cloud-overlay {
+        top: 50%;
+    }
+
+    .cloud-description {
+        display: none;
+    }
+
+    .cloud-heading {
+        font-size: 2rem;
+    }
+
+    .cloud-help-description {
+        width: 90%;
+        margin: auto;
+    }
+
+    .bottom-container1,
+    .bottom-container2,
+    .bottom-container3 {
+        padding: 1.5rem 0.15rem;
+        width: 99%;
+
+        & p {
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .cloud-description {
+        display: none;
+    }
+
+    .cloud-overlay {
+        top: 50%;
+    }
+
+    .cloud-content-container>div>div {
+        height: 450px;
+    }
+
+    .bottom-container1,
+    .bottom-container2,
+    .bottom-container3 {
+        padding: 2rem 1rem;
+        width: 99%;
+
+        & p {
+            width: 80%;
+        }
+
     }
 }

@@ -6,6 +6,7 @@ import approach from '../images/approach.png'
 import { OurIndustries } from '../components/OurIndustries'
 import { TechStacks } from '../components/TechStacks'
 import { HomepageSlider } from '../components/HomepageSlider'
+import { Animation } from '../components/Animation'
 
 export const Homepage = () => {
   return (
@@ -18,7 +19,9 @@ export const Homepage = () => {
         <img src={approach} alt="Unitrestech Approach" />
       </div>
       <OurIndustries />
+      <Animation />
       <TechStacks />
+
     </div >
   )
 }

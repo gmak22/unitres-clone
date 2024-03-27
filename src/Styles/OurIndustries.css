@@ -1,16 +1,19 @@
 .industries-model {
-    width: 90%;
-    margin: auto;
+    width: 100%;
+    background-color: #f3f7ff;
     text-align: center;
     display: flex;
     flex-direction: column;
-    font-size: 48px;
+    font-size: 3rem;
     color: rgb(41, 41, 98);
     font-weight: 700;
+    padding-bottom: 3rem;
 }
 
 .industries-container {
+    width: 90%;
     display: grid;
+    margin: auto;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     align-items: center;
@@ -18,5 +21,10 @@
 
     & img {
         width: 90%;
+    }
+
+    @media screen and (max-width:767px) {
+        display: flex;
+        flex-direction: column;
     }
 }
