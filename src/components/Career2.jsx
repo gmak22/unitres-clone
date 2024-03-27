@@ -19,27 +19,51 @@ export const Careers = ({data}) => {
         <div>
           <h2 style={{textAlign:"center",fontWeight: "700",fontSize:"calc(1.35rem + 1.2vw)"}}>Job Opening</h2>
         </div>
-        {data.map((elem)=>{
-          const isOpen = openDetails[elem.id];
-          return<>
-            <div key={elem.id}>
-              <h2 style={{fontWeight:"500",fontSize:"1.125rem",color: isOpen ? "green" : "rgba(0, 0, 0, 0.5)"}} >{elem.name}</h2>
-              <details open={!elem.openDetails} onClick={() => toggleDetails(elem.id)}>
-              <summary className='Careerdeatils'></summary>
-              <h6 style={{fontWeight:"700",fontSize:"1.125rem"}}>Location : {elem.Location}</h6>
-              <h6 style={{fontWeight:"700",fontSize:"1.125rem"}}>Job positions: {elem.Job_Positions}</h6>
-              <h6 style={{fontWeight:"700",fontSize:"1.125rem"}}>Job Description:</h6>
-              <p className='CareerContainertwo'> {elem.Job_Description}</p>
-              <h6 style={{fontWeight:"700",fontSize:"1.125rem"}}>Candidate Requirements:</h6>
-              <ul className='CareerContainertwo'>
-                  {Object.values(elem.Candidate_Requirements).map((reqElem, index) => (
-                    <li key={index}>{reqElem}</li>
-                  ))}
-              </ul>
-            </details>
-          </div> 
-          <hr />
-          </>
+        {data.map((elem,idx)=>{
+          if(idx==0){
+            const isOpen = openDetails[elem.id];
+              return<>
+                <div key={elem.id}>
+                  <h2 style={{fontWeight:"500",fontSize:"1.125rem",color: !isOpen ? "green" : "rgba(0, 0, 0, 0.5)"}} >{elem.name}</h2>
+                  <details open={!elem.openDetails} onClick={() => toggleDetails(elem.id)}>
+                  <summary className='Careerdeatils'></summary>
+                  <h6 style={{fontWeight:"700",fontSize:"1.125rem"}}>Location : {elem.Location}</h6>
+                  <h6 style={{fontWeight:"700",fontSize:"1.125rem"}}>Job positions: {elem.Job_Positions}</h6>
+                  <h6 style={{fontWeight:"700",fontSize:"1.125rem"}}>Job Description:</h6>
+                  <p className='CareerContainertwo'> {elem.Job_Description}</p>
+                  <h6 style={{fontWeight:"700",fontSize:"1.125rem"}}>Candidate Requirements:</h6>
+                  <ul className='CareerContainertwo'>
+                      {Object.values(elem.Candidate_Requirements).map((reqElem, index) => (
+                        <li key={index}>{reqElem}</li>
+                      ))}
+                  </ul>
+                </details>
+              </div> 
+              <hr />
+              </>
+          }
+          else{
+            const isOpen = openDetails[elem.id];
+            return<>
+              <div key={elem.id}>
+                <h2 style={{fontWeight:"500",fontSize:"1.125rem",color: isOpen ? "green" : "rgba(0, 0, 0, 0.5)"}} >{elem.name}</h2>
+                <details open={!elem.openDetails} onClick={() => toggleDetails(elem.id)}>
+                <summary className='Careerdeatils'></summary>
+                <h6 style={{fontWeight:"700",fontSize:"1.125rem"}}>Location : {elem.Location}</h6>
+                <h6 style={{fontWeight:"700",fontSize:"1.125rem"}}>Job positions: {elem.Job_Positions}</h6>
+                <h6 style={{fontWeight:"700",fontSize:"1.125rem"}}>Job Description:</h6>
+                <p className='CareerContainertwo'> {elem.Job_Description}</p>
+                <h6 style={{fontWeight:"700",fontSize:"1.125rem"}}>Candidate Requirements:</h6>
+                <ul className='CareerContainertwo'>
+                    {Object.values(elem.Candidate_Requirements).map((reqElem, index) => (
+                      <li key={index}>{reqElem}</li>
+                    ))}
+                </ul>
+              </details>
+            </div> 
+            <hr />
+            </>
+            }
         })}
 
         {/* <div>
