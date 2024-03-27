@@ -291,9 +291,6 @@ export default function InteAuto() {
         </div>
         <div id='inteauto-part-7'>
           <Diagram />
-          <div id='question'>
-
-          </div>
         </div>
         <div id='inteauto-part-8' >
           <h1>Industry Driven Use Cases</h1>

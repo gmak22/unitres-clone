@@ -213,6 +213,10 @@
     color: #293367;
 }
 
+#question{
+    display: none;
+}
+
 @media only screen and (min-width: 300px) and (max-width: 500px){
     #inteauto-part-1>img{
         height: 70vh;
@@ -418,7 +422,7 @@
     }
     #inteauto-part-8{
         background-color: #F3F7FF;
-        height: 615px;
+        height: 1000px;
     }
     #inteauto-part-8>h1{
         padding-top: 100px;
@@ -427,7 +431,11 @@
         margin: auto;
         color: #293367;
     }
-    
+/* 
+    #question{
+        display:;
+    }
+     */
 }
 
 @media only screen and (min-width: 501px) and (max-width: 850px){
@@ -636,7 +644,7 @@
     }
     #inteauto-part-8{
         background-color: #F3F7FF;
-        height: 615px;
+        height: 800px;
     }
     #inteauto-part-8>h1{
         padding-top: 100px;
