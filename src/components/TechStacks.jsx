@@ -28,11 +28,41 @@ export const TechStacks = () => {
             <p className='techstack-heading'>Technology Working Stack</p>
 
             <div className='techstack-options'>
-                <button onClick={() => handleToggle('frontend')} disabled={techstack.frontend === true}>Front-end</button>
-                <button onClick={() => handleToggle('backend')} disabled={techstack.backend === true}>Back-end</button>
-                <button onClick={() => handleToggle('quality')} disabled={techstack.quality === true}>Quality Assurance</button>
-                <button onClick={() => handleToggle('cloud')} disabled={techstack.cloud === true}>Cloud</button>
-                <button onClick={() => handleToggle('data')} disabled={techstack.data === true}>Data</button>
+                <button onClick={() => handleToggle('frontend')}
+                    disabled={techstack.frontend === true}
+                    style={{
+                        borderBottom: techstack.frontend === true ? '2px solid #33b89f' : 'none',
+                        color: techstack.frontend === true ? '#33b89f' : 'gray'
+                    }}
+                >Front-end</button>
+                <button onClick={() => handleToggle('backend')}
+                    disabled={techstack.backend === true}
+                    style={{
+                        borderBottom: techstack.backend === true ? '2px solid #33b89f' : 'none',
+                        color: techstack.backend === true ? '#33b89f' : 'gray'
+                    }}
+                >Back-end</button>
+                <button onClick={() => handleToggle('quality')}
+                    disabled={techstack.quality === true}
+                    style={{
+                        borderBottom: techstack.quality === true ? '2px solid #33b89f' : 'none',
+                        color: techstack.quality === true ? '#33b89f' : 'gray'
+                    }}
+                >Quality Assurance</button>
+                <button onClick={() => handleToggle('cloud')}
+                    disabled={techstack.cloud === true}
+                    style={{
+                        borderBottom: techstack.cloud === true ? '2px solid #33b89f' : 'none',
+                        color: techstack.cloud === true ? '#33b89f' : 'gray'
+                    }}
+                >Cloud</button>
+                <button onClick={() => handleToggle('data')}
+                    disabled={techstack.data === true}
+                    style={{
+                        borderBottom: techstack.data === true ? '2px solid #33b89f' : 'none',
+                        color: techstack.data === true ? '#33b89f' : 'gray'
+                    }}
+                >Data</button>
             </div>
 
             <div className='techstack-container'>

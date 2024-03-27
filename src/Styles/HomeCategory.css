@@ -1,12 +1,18 @@
 .category-model {
-    width: 90%;
+    width: 100%;
     background-color: #f3f7ff;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.category-container-main {
+    width: 90%;
     margin: auto;
 }
 
 .category-heading {
-    width: 100%;
-    margin: auto;
+    width: 80%;
     margin-bottom: 60px;
 
     & :nth-child(1) {
@@ -20,42 +26,50 @@
         font-size: 15px;
         font-weight: 400;
         color: rgb(107, 121, 137);
+        line-height: 24px;
     }
 }
 
 .home-category {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
     margin: auto;
-    border: 2px solid red;
 }
 
 .category-container {
     width: 20%;
-    border-radius: 5px;
+    border-radius: 1rem;
     background-color: white;
-    padding: 5px;
+    padding: 2rem 1rem;
 }
 
 .title {
     background-color: #DBF0FF;
+    border: none;
     color: #0096FE;
-    padding: 10px 16px;
+    padding: 0.8rem 1rem;
     border-radius: 40px;
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
 }
 
-
 .category-title {
     display: flex;
     justify-content: space-between;
+    max-height: max-content;
+
+    & img {
+        width: 20%;
+    }
 }
 
 .category-description {
-    width: 80%;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 24px;
+    color: rgb(107, 121, 137);
 }
 
 .read-more-btn {
@@ -63,4 +77,51 @@
     font-size: 15px;
     border-width: 2px;
     border-radius: 8px;
+}
+
+@media screen and (max-width:767px) {
+    .home-category {
+        width: 100%;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .category-heading {
+        width: 85%;
+
+        & :nth-child(1) {
+            font-size: 2rem;
+        }
+    }
+
+    .category-container {
+        width: 90%;
+    }
+
+    .category-title {
+
+        & img {
+            width: 10%;
+        }
+    }
+}
+
+
+.homepage-slider-description,
+.homepage-slider1-description,
+.homepage-slider-bottom {
+    display: none;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .title {
+        font-size: 1rem;
+    }
+
+    .category-title {
+        & img {
+            width: 15%;
+        }
+    }
 }
