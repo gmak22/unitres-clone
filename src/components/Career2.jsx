@@ -9,7 +9,7 @@ export const Careers = ({data}) => {
     setOpenDetails(prevState => ({
       ...prevState,
       [jobNumber]: !prevState[jobNumber]
-    }));
+    })); 
   };
 
   return (
