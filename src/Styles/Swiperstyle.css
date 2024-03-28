@@ -99,6 +99,8 @@
     }
   
     .swiper-button-prev{
+      color: #292962; 
+      z-index: 10;
       position: relative;
       margin-top: -80%;
       border: none;
@@ -106,6 +108,7 @@
     }
   
     .swiper-button-next{
+      color: #292962;
       margin-left: 93%;
       position: relative;
       margin-top: -11%;
