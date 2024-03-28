@@ -1,3 +1,4 @@
+/* Navbar.css */
 .navbar,
 .nav-scrolled {
     display: flex;
@@ -10,7 +11,6 @@
     padding: 10px 0;
     padding-left: 20px;
     transition: background-color 0.3s ease;
-    /* overflow: hidden; */
     position: fixed;
 }
 
@@ -25,46 +25,32 @@
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    min-height: auto;
-    /* overflow: visible; */
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown.open .dropdown-content {
     display: block;
-    /* padding: 20px; */
-    height: 100%;
 }
 
-.dropdown:hover .nav-link {
-    padding: 20px;
+.dropdown.open #tabss {
+    padding: 0px;
     background-color: #292962;
 }
 
-.nav-link:hover + .dropdown-content {
-    display: block;
+.dropdown.open #tabss {
+    padding: 20px;
 }
-
-.dropdown-content a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #fff;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
 
 .nav-links {
     width: 60%;
-    display: flex; /* Ensure nav-links are displayed */
+    display: flex;
     justify-content: space-between;
 }
 
 a {
     color: white;
-    /* border: 3px solid blue; */
 }
 
 .nav-menu {
@@ -78,10 +64,20 @@ a {
 }
 
 .nav-link {
+    display: flex;
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 400;
+}
+
+.nav-link>i {
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.nav-link.clicked>i {
+    transform: rotate(180deg);
 }
 
 .hamburger {
@@ -99,11 +95,12 @@ a {
 }
 
 .nav-menu.active {
+    z-index: 1000;
     position: fixed;
     top: 0;
     left: 0;
     height: 100vh;
-    width: 57%;
+    width: 59%;
     background-color: #292962;
     flex-direction: column;
     padding-top: 50px;
@@ -119,7 +116,7 @@ a {
     border: none;
     cursor: pointer;
     padding: 0;
-    z-index: 11; /* Ensure it's above the navbar */
+    z-index: 11;
 }
 
 .line {
@@ -129,7 +126,6 @@ a {
     transition: transform 0.3s ease;
 }
 
-/* Adjust hamburger icon when menu is open */
 .nav-menu.active .line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
 }
@@ -142,7 +138,6 @@ a {
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* Media query to hide nav-links and display hamburger menu */
 @media only screen and (min-width: 301px) and (max-width: 850px) {
     .hamburger {
         display: flex;
@@ -154,10 +149,10 @@ a {
         padding: 10px;
         flex-direction: column;
     }
-    
-    .dropdown{
+
+    .dropdown {
         padding: 10px;
-        margin-left:40px ;
+        margin-left: 40px;
         border: none;
     }
 
@@ -165,37 +160,54 @@ a {
         display: block;
     }
 
-    .dropdown:hover .nav-link {
-        /* margin-left: 50px; */
-        padding: 0px;
-        background-color: #292962;
-    }
-   
-    
-    .nav-menu:not(.active) .nav-links {
-        display: none;
-    }
-    a{
-        display: block;
-        padding-left: 50px;
-        padding-top: 10px;
+    .dropdown.open #tabss {
+        padding: 20px;
     }
 
     .dropdown-content {
         z-index: 12;
         display: none;
         position: relative;
-        background-color: #f9f9f9;
+        background-color: #292962;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        min-height: auto;
+        height: auto;
         margin-bottom: 20px;
         margin-top: 20px;
     }
+
     .dropdown:hover .nav-link {
-        padding: 10px;
+        padding: 0px;
         background-color: #292962;
         border: none;
     }
-    
+
+    .dropdown-arrow {
+        height: 0;
+        width: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #333;
+        position: relative;
+        top: 45px;
+        left: 350px;
+    }
+
+    .dropdown:hover .dropdown-arrow {
+        top: 35px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #333;
+        border-top: 10px solid transparent;
+    }
+
+    .nav-menu:not(.active) .nav-links {
+        display: none;
+    }
+
+    a {
+        display: block;
+        padding-left: 50px;
+        padding-top: 10px;
+    }
 }
