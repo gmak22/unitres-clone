@@ -30,7 +30,9 @@ export const Footer = () => {
             <input type="text" name="name" placeholder="Your Name" id="name" class="formdata" /> <br />
             <br /><input type="email" name="email" placeholder="Your Email Address" id="email" class="formdata" /><br />
             <br /><input type="text" name="subject" placeholder="Subject" id="subject" class="formdata" /><br />
-            <br /><textarea name="msg" id="msg" cols="40" rows="5" placeholder="Enter your message" class="formdata"></textarea>
+            <br /><textarea name="msg" id="msg" cols="40" rows="5" placeholder="Enter your message" class="formdata" style={{
+                fontFamily:`Plus Jakarta Sans, sans-serif`
+            }}></textarea>
             <div style={{ display: "flex", justifyContent: "end"}}><input type="submit" value="Send Message" id="submitbtn"/></div>
             </form>
         </div>
