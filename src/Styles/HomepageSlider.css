@@ -47,17 +47,26 @@
     width: 90%;
     font-size: 15px;
     text-align: center;
+    display: block;
 }
 
+.homepage-slider1-heading {
+    text-align: center;
+}
+
+.homepage-slider1-heading,
 .homepage-slider-heading {
-    font-size: 58px;
+    font-size: 3rem;
     margin: 0;
     font-weight: 700;
 }
 
 .homepage-slider-description {
-    width: 90%;
-    font-size: 15px;
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 400px;
+    display: block;
+    line-height: 24px;
 }
 
 .homepage-slider-bottom {
@@ -66,26 +75,45 @@
     text-align: center;
     margin: 0;
     font-weight: 700;
+    display: block;
 }
 
-@media screen and (max-width:1023px) {
-    .homepage-slider-heading {
+@media screen and (max-width:768px) {
+
+    .homepage-slider-description,
+    .homepage-slider1-description,
+    .homepage-slider-bottom {
+        display: none;
+    }
+
+    .homepage-slider1-heading {
         font-size: 1rem;
     }
 
-    .homepage-slider-overlay {
-        top: 50%;
-        left: 50%;
+    .homepage-slider-container {
+        height: 30vh;
     }
 
-    .homepage-slider1-overlay {
-        width: 50%;
-    }
-}
 
-@media screen and (min-width:768px) and (max-width:1023px) {
-    .homepage-slider-heading {
-        font-size: 3rem;
-        opacity: 70%;
+    @media screen and (max-width:1023px) {
+        .homepage-slider-heading {
+            font-size: 1rem;
+        }
+
+        .homepage-slider-overlay {
+            top: 50%;
+            left: 50%;
+        }
+
+        .homepage-slider1-overlay {
+            width: 50%;
+        }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1023px) {
+        .homepage-slider-heading {
+            font-size: 3rem;
+            opacity: 70%;
+        }
     }
 }
