@@ -13,7 +13,7 @@ export const HomepageSlider = () => {
         <div key={1} className={currentIndex === 0 ? 'active' : ''}>
             <img src={slide1} alt='Cloud Engineering & Native Development' />
             <div className='homepage-slider1-overlay'>
-                <p className='homepage-slider-heading'>Driving Technology Driven Intelligent Outcomes</p>
+                <p className='homepage-slider1-heading'>Driving Technology Driven Intelligent Outcomes</p>
                 <p className='homepage-slider1-description'>DIGITAL | CLOUD | AI | AUTOMATION</p>
                 <p className='homepage-slider-bottom'>FIRST</p>
             </div>
