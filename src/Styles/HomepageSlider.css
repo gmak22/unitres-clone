@@ -5,7 +5,7 @@
     overflow: hidden;
 }
 
-.homepage-slider-container > div {
+.homepage-slider-container>div {
     position: absolute;
     top: 0;
     left: 0;
@@ -15,11 +15,11 @@
     transition: opacity 0.5s ease;
 }
 
-.homepage-slider-container > div.active {
+.homepage-slider-container>div.active {
     opacity: 1;
 }
 
-.homepage-slider-container > div img {
+.homepage-slider-container>div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -71,12 +71,6 @@
 @media screen and (max-width:1023px) {
     .homepage-slider-heading {
         font-size: 1rem;
-    }
-
-    .homepage-slider-description,
-    .homepage-slider1-description,
-    .homepage-slider-bottom {
-        display: none;
     }
 
     .homepage-slider-overlay {

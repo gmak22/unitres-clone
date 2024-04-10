@@ -132,7 +132,7 @@ export const quality = [
     },
     {
         id: 5,
-        name: 'Soup.UI',
+        name: 'SoapUI',
         logo: 'https://unitrestech.com/assets/images/soup.png'
     },
     {
