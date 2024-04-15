@@ -1,0 +1,24 @@
+
+.mainDiagram{
+    /* background-color: red; */
+    text-align: center;
+    display: grid;
+    row-gap: 20px;
+}
+
+.diagram-component{
+    display: flex;
+    /* background-color: pink; */
+    justify-content: center;
+}
+
+.circle_dig{
+    background-color: yellow;
+    margin: auto 34%;
+    padding: 5% 5% 7%;
+    height: 250px;
+    border-radius: 50%;
+    position: Relative;
+    top: -510px;
+}
+
